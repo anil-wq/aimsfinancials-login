@@ -5,23 +5,17 @@ import { catalog } from '../content/catalog';
 import { bySlug } from '../content/articles';
 
 /**
- * Dashboard page. Displays personalised strategies and resource links
- * for logged in users. If no username cookie is present or the
- * cookie does not match a known user, the visitor is redirected
- * to the login page.
+ * Education page
+ *
+ * Provides open access to the full library of financial education articles
+ * without requiring a login. Topics are organised into collapsible
+ * categories on the left, with a search bar for quick filtering. The main
+ * panel displays either a card grid of summaries or the full article when
+ * selected. This page reuses the same complex design created for the
+ * authenticated dashboard but exposes it to all visitors.
  */
-export default function Dashboard({ user }) {
-  /**
-   * Enhanced dashboard design
-   *
-   * We use a multi-level sidebar that groups topics into collapsible
-   * sections. Each section can be expanded to reveal individual articles.
-   * A search input filters article titles within the active group. Selecting
-   * an article displays the full write‑up in the main panel. If no article
-   * is selected, a grid of cards summarises the available topics for the
-   * chosen group. This design minimises scrolling and provides a modern
-   * navigation experience.  
-   */
+export default function Education() {
+  // Local state for navigation and filtering
   const [activeGroup, setActiveGroup] = useState(catalog.length > 0 ? catalog[0].group : null);
   const [activeSlug, setActiveSlug] = useState(null);
   const [openGroups, setOpenGroups] = useState(() => {
@@ -31,7 +25,7 @@ export default function Dashboard({ user }) {
   });
   const [searchTerm, setSearchTerm] = useState('');
 
-  // Icons for groups and items (reused from earlier design)
+  // Icon mappings reused from dashboard
   const groupIcons = {
     'Insurance': 'shield-outline',
     'Trusts (Core)': 'document-text-outline',
@@ -68,14 +62,12 @@ export default function Dashboard({ user }) {
     '529-education': 'school-outline'
   };
 
-  // Toggle the expansion state of a group and set it active
   const toggleGroup = (group) => {
     setOpenGroups(prev => ({ ...prev, [group]: !prev[group] }));
     setActiveGroup(group);
     setActiveSlug(null);
   };
 
-  // Filter items based on search term
   const getFilteredItems = (group) => {
     const section = catalog.find(sec => sec.group === group);
     if (!section) return [];
@@ -85,9 +77,9 @@ export default function Dashboard({ user }) {
   return (
     <div>
       <Head>
-        <title>Dashboard – AIMS Financials</title>
+        <title>Education – AIMS Financials</title>
       </Head>
-      {/* Top navigation updated for public access: Education page link replaces Dashboard and logout */}
+      {/* Shared top navigation */}
       <nav className="navbar">
         <div className="nav-container">
           <div className="logo">
@@ -103,11 +95,10 @@ export default function Dashboard({ user }) {
       </nav>
       <div style={{ paddingTop: '80px', paddingBottom: '2rem' }}>
         <div className="container">
-          <h2 style={{ color: 'var(--secondary-color)', textAlign: 'center', marginBottom: '1rem' }}>Welcome, {user.name}</h2>
+          <h2 style={{ color: 'var(--secondary-color)', textAlign: 'center', marginBottom: '1rem' }}>Financial Education</h2>
           <p style={{ textAlign: 'center', marginBottom: '2rem' }}>
-            Choose a topic from the sidebar to explore in depth. Use the search box to quickly find a concept.
+            Browse our library of in‑depth articles on planning, trusts, insurance and more. Use the search bar or expand a section to begin.
           </p>
-          {/* New complex layout: collapsible sidebar with search and advanced cards */}
           <div className="dashboard-layout">
             <aside className="sidebar">
               <div className="search-bar">
@@ -187,12 +178,4 @@ export default function Dashboard({ user }) {
       </div>
     </div>
   );
-}
-
-// Make the dashboard publicly accessible by returning a default user.
-export async function getServerSideProps() {
-  // Provide a generic user object for display purposes. In a future iteration,
-  // you could personalise this by looking up a profile based on query params.
-  const user = { name: 'Visitor' };
-  return { props: { user } };
 }
