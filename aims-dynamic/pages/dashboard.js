@@ -2,6 +2,9 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { useState } from 'react';
 import { findUser } from '../lib/users';
+import { catalog } from '../content/catalog';
+import { bySlug } from '../content/articles';
+import Sidebar from '../components/Sidebar';
 
 /**
  * Dashboard page. Displays personalised strategies and resource links
@@ -10,41 +13,9 @@ import { findUser } from '../lib/users';
  * to the login page.
  */
 export default function Dashboard({ user }) {
-  // Define category data structures and groupings for sidebar navigation
-  const categories = {
-    retirement: user.strategies.retirement,
-    tax: user.strategies.tax,
-    financialVehicles: user.strategies.financialVehicles,
-    willsTrusts: user.strategies.willsTrusts,
-    advancedTrusts: user.strategies.advancedTrusts,
-    lifeInsurance: user.strategies.lifeInsurance,
-    charitableGiving: user.strategies.charitableGiving
-  };
-  const categoryNames = {
-    retirement: 'Retirement Strategies',
-    tax: 'Tax Strategies',
-    financialVehicles: 'Financial Vehicles',
-    willsTrusts: 'Wills & Trusts',
-    advancedTrusts: 'Advanced Trusts',
-    lifeInsurance: 'Life Insurance',
-    charitableGiving: 'Charitable Giving & DAFs'
-  };
-  const categoryResources = {
-    retirement: '/resources/retirement-planning.txt',
-    tax: '/resources/tax-strategies.txt',
-    financialVehicles: '/resources/financial-vehicles.txt',
-    willsTrusts: '/resources/will-trusts.txt',
-    advancedTrusts: '/resources/advanced-trusts.txt',
-    lifeInsurance: '/resources/life-insurance.txt',
-    charitableGiving: '/resources/charitable-giving.txt'
-  };
-  const groups = [
-    { title: 'Planning', keys: ['retirement', 'tax'] },
-    { title: 'Investments', keys: ['financialVehicles'] },
-    { title: 'Estate Planning', keys: ['willsTrusts', 'advancedTrusts', 'lifeInsurance'] },
-    { title: 'Philanthropy', keys: ['charitableGiving'] }
-  ];
-  const [activeKey, setActiveKey] = useState(groups[0].keys[0]);
+  // Determine the initial article slug from the catalog. Use the first item as default.
+  const firstSlug = catalog.length > 0 && catalog[0].items.length > 0 ? catalog[0].items[0].slug : null;
+  const [activeSlug, setActiveSlug] = useState(firstSlug);
 
   return (
     <div>
@@ -81,39 +52,21 @@ export default function Dashboard({ user }) {
             clicking a category loads its details in the main panel.
           */}
           <div className="dashboard-layout">
-            <aside className="sidebar">
-              {groups.map((group) => (
-                <div key={group.title} className="sidebar-group">
-                  <h4 className="sidebar-group-title">{group.title}</h4>
-                  <ul className="sidebar-list">
-                    {group.keys.map((key) => (
-                      <li
-                        key={key}
-                        className={`sidebar-item ${activeKey === key ? 'active' : ''}`}
-                        onClick={() => setActiveKey(key)}
-                      >
-                        {categoryNames[key]}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </aside>
-            <main className="main-content">
-              <h3 style={{ color: 'var(--secondary-color)', marginBottom: '0.5rem' }}>{categoryNames[activeKey]}</h3>
-              <ul className="active-list">
-                {categories[activeKey].map((item, idx) => (
-                  <li key={idx} className="active-list-item">
-                    <p>{item}</p>
-                  </li>
-                ))}
-              </ul>
-              <div style={{ marginTop: '1rem' }}>
-                <a href={categoryResources[activeKey]} download>
-                  Download {categoryNames[activeKey]}
-                </a>
-              </div>
-            </main>
+            {/* Render the new sidebar and article viewer. The Sidebar component
+               lists all topics defined in the catalog. Selecting a topic
+               updates the activeSlug state and loads the corresponding
+               article content on the right. */}
+            <Sidebar catalog={catalog} activeSlug={activeSlug} onSelect={setActiveSlug} />
+            <div className="main-content">
+              {activeSlug && bySlug[activeSlug] ? (
+                <>
+                  <h2 style={{ color: 'var(--secondary-color)', marginBottom: '0.5rem' }}>{bySlug[activeSlug].meta.title}</h2>
+                  <article>{bySlug[activeSlug].content}</article>
+                </>
+              ) : (
+                <p>No content available.</p>
+              )}
+            </div>
           </div>
         </div>
       </div>
