@@ -15,15 +15,15 @@ export const content = (
 
     <h3>Advantages</h3>
     <ul>
-      <li> Avoids probate, allowing assets to pass quickly and privately to heirs【386114534604544†L58-L72】.</li>
-      <li> Maintains privacy because trust documents are not part of the public probate record【386114534604544†L58-L72】.</li>
+      <li> Avoids probate, allowing assets to pass quickly and privately to heirs.</li>
+      <li> Maintains privacy because trust documents are not part of the public probate record.</li>
       <li>
         Provides continuity of asset management if you become incapacitated by
-        appointing a successor trustee【386114534604544†L74-L81】.
+        appointing a successor trustee.
       </li>
       <li>
         Can help separate premarital or out‑of‑state property from community
-        assets【386114534604544†L83-L89】.
+        assets.
       </li>
     </ul>
 
@@ -31,18 +31,18 @@ export const content = (
     <ul>
       <li>
         Requires time and expense to set up and to retitle all assets into the
-        trust【386114534604544†L93-L105】.
+        trust.
       </li>
       <li>
         Does not provide tax benefits; income and assets remain part of your
-        taxable estate【386114534604544†L107-L115】.
+        taxable estate.
       </li>
       <li>
-        Offers little protection from creditors because you retain control【386114534604544†L117-L121】.
+        Offers little protection from creditors because you retain control.
       </li>
       <li>
         Must be maintained; failure to fund or update the trust can result in
-        probate【386114534604544†L136-L145】.
+        probate.
       </li>
     </ul>
 
