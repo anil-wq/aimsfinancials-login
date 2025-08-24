@@ -1,6 +1,11 @@
 Charitable Giving & DAFs
 
-- A donor‑advised fund (DAF) is a giving account established at a public charity. You make contributions of cash or appreciated assets, receive an immediate tax deduction, and then recommend grants to your favorite charities over time【230157262629390†L79-L90】.
-- Contributions to a DAF are irrevocable but may be invested and grow tax‑free. Donors can suggest grants whenever they like, allowing them to bunch deductions in one year while distributing gifts over future years【230157262629390†L140-L156】.
-- DAFs offer an immediate income tax deduction, potential to avoid capital gains tax when you donate appreciated assets, tax‑free growth of invested contributions, simplified administration, the option for anonymity, and the ability to leave a charitable legacy by naming successors or charitable beneficiaries【230157262629390†L189-L208】.
-- Charitable trusts such as CRTs and CLTs can provide income streams and tax benefits but require legal setup and administration. DAFs offer a simpler, more flexible way to support multiple charities over time.
+- **Donor‑advised funds (DAFs)** are giving accounts established at public charities. You contribute cash or appreciated assets, receive an immediate income tax deduction and can recommend grants to your favorite charities over time. Contributions are irrevocable but may be invested and grow tax‑free while you decide where to give.
+
+- **How DAFs work:** You can bunch several years of charitable deductions into one tax year by making a large contribution to a DAF and then recommend grants over time. DAF sponsors handle recordkeeping and grant administration, and you may remain anonymous if desired. Donated securities can avoid capital gains tax, enhancing the amount available for charity.
+
+- **Benefits of DAFs:** Immediate tax deduction, potential to avoid capital gains tax, tax‑free growth of invested contributions, simplified administration and the ability to name successors so that charitable giving can continue for future generations.
+
+- **Drawbacks of DAFs and fees:** Donors must give up legal control; the sponsoring organization has the final say on grants; there is no requirement for the fund to distribute money to charities, delaying impact; and administrative and investment fees can reduce the value of the account. In rare cases, mismanagement or bankruptcy of a sponsor may jeopardize contributions.
+
+- **Charitable trusts vs. DAFs:** Charitable trusts such as charitable remainder trusts (CRTs) and charitable lead trusts (CLTs) can provide income streams and significant tax benefits but are irrevocable, require legal setup and ongoing administration and reduce flexibility compared with DAFs. A DAF is a simpler, more flexible option for charitable giving across multiple causes.

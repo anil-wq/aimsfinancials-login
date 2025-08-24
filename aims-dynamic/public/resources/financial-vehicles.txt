@@ -1,11 +1,19 @@
 Financial Vehicles
 
-- Stocks represent ownership in individual companies. They offer the potential for significant appreciation but are subject to market volatility and can experience large swings in value【980636252535781†L28-L35】.
-- Bonds are debt securities issued by corporations, municipalities or governments. They pay regular interest and return the principal at maturity, making them generally less volatile than stocks while providing steady income【980636252535781†L28-L35】【980636252535781†L56-L61】.
-- Mutual funds pool money from many investors to buy a diversified portfolio of stocks, bonds or other assets. They are managed by professionals and provide built‑in diversification, reducing individual risk【980636252535781†L28-L35】【980636252535781†L65-L70】.
-- Exchange‑traded funds (ETFs) are similar to mutual funds but trade on an exchange like individual stocks. They typically have lower management fees and provide intraday liquidity while offering exposure to a basket of securities.
-- Real estate investment trusts (REITs) allow investors to own a share of income‑producing real estate such as apartment buildings, office space and hotels. REITs must distribute most of their income as dividends and can provide diversification and high yields.
-- Annuities are insurance contracts in which you pay a lump sum or series of payments to an insurer in exchange for a guaranteed stream of income in the future. They can offer fixed or variable returns and may provide tax‑deferred growth, but they often carry higher fees and surrender charges.
-- Cash and cash equivalents—such as money market funds, Treasury bills and bank savings accounts—provide safety and liquidity but generally earn modest returns that may not keep up with inflation.
-- Certificates of deposit (CDs) are time deposits offered by banks that pay a fixed interest rate over a specified term. They are federally insured up to certain limits and offer higher yields than savings accounts but impose penalties for early withdrawal.
-- Alternative investments include private equity, hedge funds, commodities and collectibles. These investments often have low correlation with stocks and bonds and may enhance portfolio diversification, but they can carry higher fees, limited liquidity and greater risk.
+- **Stocks** represent ownership in individual companies. They offer the potential for significant appreciation but are subject to market volatility and can experience large swings in value, including the risk of losing principal.
+
+- **Bonds** are debt securities issued by corporations, municipalities or governments. They pay regular interest and return the principal at maturity, making them generally less volatile than stocks; however, they carry credit risk if the issuer defaults, interest‑rate risk if rates rise and inflation risk over time.
+
+- **Mutual funds** pool money from many investors to buy a diversified portfolio of stocks, bonds or other assets. They offer built‑in diversification and professional management but still incur market risk, management fees and the potential to underperform simple index benchmarks.
+
+- **Exchange‑traded funds (ETFs)** are similar to mutual funds but trade on an exchange like individual stocks. They typically have lower management fees and provide intraday liquidity while offering exposure to a basket of securities; nonetheless, their prices fluctuate with market movements and may trade at premiums or discounts to net asset value.
+
+- **Real estate investment trusts (REITs)** allow investors to own a share of income‑producing real estate such as apartment buildings, office space and hotels. REITs must distribute most of their income as dividends and can provide diversification and high yields, but they are sensitive to real estate market cycles, interest rates and the use of leverage.
+
+- **Annuities** are insurance contracts in which you pay a lump sum or series of payments to an insurer in exchange for a guaranteed stream of income in the future. They can offer fixed or variable returns and may provide tax‑deferred growth, but they often carry higher fees, surrender charges and limited access to your capital.
+
+- **Cash and cash equivalents**—such as money market funds, Treasury bills and bank savings accounts—provide safety and liquidity but generally earn modest returns that may not keep up with inflation, resulting in a loss of purchasing power over time.
+
+- **Certificates of deposit (CDs)** are time deposits offered by banks that pay a fixed interest rate over a specified term. They are federally insured up to certain limits and offer higher yields than savings accounts but impose penalties for early withdrawal and can expose you to inflation risk if rates rise.
+
+- **Alternative investments** include private equity, hedge funds, commodities and collectibles. These investments often have low correlation with stocks and bonds and may enhance portfolio diversification, but they can carry higher fees, limited liquidity, complex strategies and a greater risk of loss.

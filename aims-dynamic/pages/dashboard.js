@@ -51,7 +51,8 @@ export default function Dashboard({ user }) {
               { title: 'Financial Vehicles', items: user.strategies.financialVehicles },
               { title: 'Wills & Trusts', items: user.strategies.willsTrusts },
               { title: 'Advanced Trusts', items: user.strategies.advancedTrusts },
-              { title: 'Charitable Giving & DAFs', items: user.strategies.charitableGiving }
+              { title: 'Charitable Giving & DAFs', items: user.strategies.charitableGiving },
+              { title: 'Life Insurance', items: user.strategies.lifeInsurance }
             ].map((section, secIdx) => (
               <div key={secIdx} className="steps-list">
                 <h3 style={{ color: 'var(--secondary-color)', marginBottom: '0.5rem' }}>{section.title}</h3>
@@ -99,6 +100,11 @@ export default function Dashboard({ user }) {
               <li>
                 <a href="/resources/charitable-giving.txt" download>
                   Charitable Giving (TXT)
+                </a>
+              </li>
+              <li style={{ marginBottom: '0.5rem' }}>
+                <a href="/resources/life-insurance.txt" download>
+                  Life Insurance (TXT)
                 </a>
               </li>
             </ul>
