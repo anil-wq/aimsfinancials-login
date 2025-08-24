@@ -503,6 +503,26 @@ section h2 {
   font-weight: 600;
   margin-bottom: 0.5rem;
   color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  background-color: var(--light-color);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* Icon styling for group expand/collapse indicator */
+.sidebar-group-icon {
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+}
+
+/* Hover styles for sidebar group headers */
+.sidebar-group-title:hover {
+  background-color: var(--accent-color);
+  color: var(--white);
 }
 
 .sidebar-list {
