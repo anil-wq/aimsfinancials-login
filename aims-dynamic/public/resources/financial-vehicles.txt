@@ -1,0 +1,11 @@
+Financial Vehicles
+
+- Stocks represent ownership in individual companies. They offer the potential for significant appreciation but are subject to market volatility and can experience large swings in value【980636252535781†L28-L35】.
+- Bonds are debt securities issued by corporations, municipalities or governments. They pay regular interest and return the principal at maturity, making them generally less volatile than stocks while providing steady income【980636252535781†L28-L35】【980636252535781†L56-L61】.
+- Mutual funds pool money from many investors to buy a diversified portfolio of stocks, bonds or other assets. They are managed by professionals and provide built‑in diversification, reducing individual risk【980636252535781†L28-L35】【980636252535781†L65-L70】.
+- Exchange‑traded funds (ETFs) are similar to mutual funds but trade on an exchange like individual stocks. They typically have lower management fees and provide intraday liquidity while offering exposure to a basket of securities.
+- Real estate investment trusts (REITs) allow investors to own a share of income‑producing real estate such as apartment buildings, office space and hotels. REITs must distribute most of their income as dividends and can provide diversification and high yields.
+- Annuities are insurance contracts in which you pay a lump sum or series of payments to an insurer in exchange for a guaranteed stream of income in the future. They can offer fixed or variable returns and may provide tax‑deferred growth, but they often carry higher fees and surrender charges.
+- Cash and cash equivalents—such as money market funds, Treasury bills and bank savings accounts—provide safety and liquidity but generally earn modest returns that may not keep up with inflation.
+- Certificates of deposit (CDs) are time deposits offered by banks that pay a fixed interest rate over a specified term. They are federally insured up to certain limits and offer higher yields than savings accounts but impose penalties for early withdrawal.
+- Alternative investments include private equity, hedge funds, commodities and collectibles. These investments often have low correlation with stocks and bonds and may enhance portfolio diversification, but they can carry higher fees, limited liquidity and greater risk.

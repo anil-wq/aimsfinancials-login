@@ -468,6 +468,14 @@ section h2 {
   margin-top: 2rem;
 }
 
+/* Dashboard grid for the logged-in learning dashboard */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
 .steps-list ol {
   list-style: none;
   counter-reset: step;

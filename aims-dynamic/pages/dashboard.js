@@ -38,33 +38,35 @@ export default function Dashboard({ user }) {
           <p style={{ textAlign: 'center', marginBottom: '2rem' }}>
             Here are some personalised strategies and resources to help you reach your goals.
           </p>
-          <div className="how-grid">
-            <div className="steps-list">
-              <h3 style={{ color: 'var(--secondary-color)', marginBottom: '0.5rem' }}>Retirement Strategies</h3>
-              <ol>
-                {user.strategies.retirement.map((item, idx) => (
-                  <li key={idx} style={{ marginBottom: '0.5rem' }}>
-                    <div className="step-number">{idx + 1}</div>
-                    <div className="step-content">
-                      <p>{item}</p>
-                    </div>
-                  </li>
-                ))}
-              </ol>
-            </div>
-            <div className="steps-list">
-              <h3 style={{ color: 'var(--secondary-color)', marginBottom: '0.5rem' }}>Tax Strategies</h3>
-              <ol>
-                {user.strategies.tax.map((item, idx) => (
-                  <li key={idx} style={{ marginBottom: '0.5rem' }}>
-                    <div className="step-number">{idx + 1}</div>
-                    <div className="step-content">
-                      <p>{item}</p>
-                    </div>
-                  </li>
-                ))}
-              </ol>
-            </div>
+          {/*
+            The learning dashboard grid displays each category of financial information
+            as its own list. We map over an array of section definitions to avoid
+            repeating similar markup. The CSS class `.dashboard-grid` ensures
+            responsive columns across screen sizes.
+          */}
+          <div className="dashboard-grid">
+            {[
+              { title: 'Retirement Strategies', items: user.strategies.retirement },
+              { title: 'Tax Strategies', items: user.strategies.tax },
+              { title: 'Financial Vehicles', items: user.strategies.financialVehicles },
+              { title: 'Wills & Trusts', items: user.strategies.willsTrusts },
+              { title: 'Advanced Trusts', items: user.strategies.advancedTrusts },
+              { title: 'Charitable Giving & DAFs', items: user.strategies.charitableGiving }
+            ].map((section, secIdx) => (
+              <div key={secIdx} className="steps-list">
+                <h3 style={{ color: 'var(--secondary-color)', marginBottom: '0.5rem' }}>{section.title}</h3>
+                <ol>
+                  {section.items.map((item, idx) => (
+                    <li key={idx} style={{ marginBottom: '0.5rem' }}>
+                      <div className="step-number">{idx + 1}</div>
+                      <div className="step-content">
+                        <p>{item}</p>
+                      </div>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            ))}
           </div>
           <div style={{ marginTop: '2rem' }}>
             <h3 style={{ color: 'var(--secondary-color)', marginBottom: '0.5rem' }}>Downloadable Resources</h3>
@@ -74,9 +76,29 @@ export default function Dashboard({ user }) {
                   Retirement Planning (TXT)
                 </a>
               </li>
-              <li>
+              <li style={{ marginBottom: '0.5rem' }}>
                 <a href="/resources/tax-strategies.txt" download>
                   Tax Strategies (TXT)
+                </a>
+              </li>
+              <li style={{ marginBottom: '0.5rem' }}>
+                <a href="/resources/financial-vehicles.txt" download>
+                  Financial Vehicles (TXT)
+                </a>
+              </li>
+              <li style={{ marginBottom: '0.5rem' }}>
+                <a href="/resources/will-trusts.txt" download>
+                  Wills &amp; Trusts (TXT)
+                </a>
+              </li>
+              <li style={{ marginBottom: '0.5rem' }}>
+                <a href="/resources/advanced-trusts.txt" download>
+                  Advanced Trusts (TXT)
+                </a>
+              </li>
+              <li>
+                <a href="/resources/charitable-giving.txt" download>
+                  Charitable Giving (TXT)
                 </a>
               </li>
             </ul>
