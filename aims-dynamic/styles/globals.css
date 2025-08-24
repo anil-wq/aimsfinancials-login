@@ -476,6 +476,97 @@ section h2 {
   margin-top: 2rem;
 }
 
+/*
+  New Dashboard layout with sidebar navigation and content area. The sidebar
+  groups categories under headings and highlights the active item. The
+  content area displays details for the selected category. Media queries
+  ensure the layout stacks on smaller screens.
+*/
+.dashboard-layout {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.sidebar {
+  flex: 0 0 250px;
+  border-right: 1px solid #e5eaf5;
+  padding-right: 1rem;
+}
+
+.sidebar-group {
+  margin-bottom: 1.5rem;
+}
+
+.sidebar-group-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+.sidebar-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar-item {
+  cursor: pointer;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  color: var(--primary-color);
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.sidebar-item:hover {
+  background-color: var(--light-color);
+}
+
+.sidebar-item.active {
+  background-color: var(--accent-color);
+  color: var(--white);
+}
+
+.main-content {
+  flex: 1;
+}
+
+.active-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.active-list-item {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.active-list-item::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--accent-color);
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+/* Responsive adjustments for dashboard layout */
+@media (max-width: 768px) {
+  .dashboard-layout {
+    flex-direction: column;
+  }
+  .sidebar {
+    border-right: none;
+    border-bottom: 1px solid #e5eaf5;
+    padding-right: 0;
+    padding-bottom: 1rem;
+  }
+}
+
 .steps-list ol {
   list-style: none;
   counter-reset: step;
