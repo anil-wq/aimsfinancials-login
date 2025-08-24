@@ -76,18 +76,9 @@ export default function Dashboard({ user }) {
             Explore each topic using the sidebar to learn more about your options.
           </p>
           {/*
-            The learning dashboard grid displays each category of financial information
-            as its own list. We map over an array of section definitions to avoid
-            repeating similar markup. The CSS class `.dashboard-grid` ensures
-            responsive columns across screen sizes.
-          */}
-          <div className="dashboard-grid">
-          {/*
-            Replace the old grid with a sidebar navigation and content area. The
-            sidebar groups related topics and allows users to click to view
-            detailed information for a single category at a time. The main
-            content area displays the selected category's details and provides
-            a download link for the associated resource file.
+            Use a two‑column layout with a sidebar on the left and a main
+            content area on the right. The sidebar lists topic categories and
+            clicking a category loads its details in the main panel.
           */}
           <div className="dashboard-layout">
             <aside className="sidebar">
