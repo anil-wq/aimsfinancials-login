@@ -36,8 +36,11 @@ export default function Home() {
             <li><a href="#services">Services</a></li>
             <li><a href="#what">What I Do</a></li>
             <li><a href="#philosophy">Philosophy</a></li>
-            {/* Education tab links to the open-access education page */}
             <li><a href="/education">Education</a></li>
+            <li><a href="/strategies">Strategies</a></li>
+            <li><a href="/vault">Vault</a></li>
+            <li><a href="/partners">Partners</a></li>
+            <li><a href="/blog">Blog</a></li>
           </ul>
         </div>
       </nav>

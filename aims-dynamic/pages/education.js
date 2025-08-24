@@ -79,7 +79,7 @@ export default function Education() {
       <Head>
         <title>Education – AIMS Financials</title>
       </Head>
-      {/* Shared top navigation */}
+      {/* Shared top navigation updated to include all main sections */}
       <nav className="navbar">
         <div className="nav-container">
           <div className="logo">
@@ -90,6 +90,10 @@ export default function Education() {
           <ul className="nav-links">
             <li><Link href="/">Home</Link></li>
             <li><Link href="/education">Education</Link></li>
+            <li><Link href="/strategies">Strategies</Link></li>
+            <li><Link href="/vault">Vault</Link></li>
+            <li><Link href="/partners">Partners</Link></li>
+            <li><Link href="/blog">Blog</Link></li>
           </ul>
         </div>
       </nav>
