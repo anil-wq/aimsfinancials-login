@@ -114,9 +114,7 @@ export default function Blog() {
       title: 'Have a Family? You Need a Will — Not Just a Paycheck',
       date: 'May 2025',
       summary:
-        'In this quick read, Anil reminds high‑earning professionals that a steady paycheck and
-        even life insurance aren’t enough. A will and comprehensive estate plan are critical to
-        protecting loved ones and passing on wealth effectively.',
+        'In this quick read, Anil reminds high‑earning professionals that a steady paycheck and even life insurance aren’t enough. A will and comprehensive estate plan are critical to protecting loved ones and passing on wealth effectively.',
       content: (
         <div>
           <p>
