@@ -77,9 +77,9 @@ export default function Education() {
   return (
     <div>
       <Head>
-        <title>Education – AIMS Financials</title>
+        <title>Learn – AIMS Financials</title>
       </Head>
-      {/* Shared top navigation updated to include all main sections */}
+      {/* Shared top navigation */}
       <nav className="navbar">
         <div className="nav-container">
           <div className="logo">
@@ -89,19 +89,19 @@ export default function Education() {
           </div>
           <ul className="nav-links">
             <li><Link href="/">Home</Link></li>
-            <li><Link href="/education">Education</Link></li>
-            <li><Link href="/strategies">Strategies</Link></li>
-            <li><Link href="/vault">Vault</Link></li>
-            <li><Link href="/partners">Partners</Link></li>
+            <li><a href="/#services">Services</a></li>
+            <li><a href="/#what">What I Do</a></li>
+            <li><a href="/#philosophy">Philosophy</a></li>
+            <li><Link href="/education">Learn</Link></li>
             <li><Link href="/blog">Blog</Link></li>
           </ul>
         </div>
       </nav>
       <div style={{ paddingTop: '80px', paddingBottom: '2rem' }}>
         <div className="container">
-          <h2 style={{ color: 'var(--secondary-color)', textAlign: 'center', marginBottom: '1rem' }}>Financial Education</h2>
+          <h2 style={{ color: 'var(--secondary-color)', textAlign: 'center', marginBottom: '1rem' }}>Learn</h2>
           <p style={{ textAlign: 'center', marginBottom: '2rem' }}>
-            Browse our library of in‑depth articles on planning, trusts, insurance and more. Use the search bar or expand a section to begin.
+            Welcome to <strong>Learn</strong> 🎓 – your hub of bite‑sized financial wisdom! Explore our library of articles on planning, trusts, insurance and more. Use the search bar or expand a section to begin your adventure 🧭.
           </p>
           <div className="dashboard-layout">
             <aside className="sidebar">

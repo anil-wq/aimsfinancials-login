@@ -25,10 +25,10 @@ export default function Vault() {
           </div>
           <ul className="nav-links">
             <li><Link href="/">Home</Link></li>
-            <li><Link href="/education">Education</Link></li>
-            <li><Link href="/strategies">Strategies</Link></li>
-            <li><Link href="/vault">Vault</Link></li>
-            <li><Link href="/partners">Partners</Link></li>
+            <li><a href="/#services">Services</a></li>
+            <li><a href="/#what">What I Do</a></li>
+            <li><a href="/#philosophy">Philosophy</a></li>
+            <li><Link href="/education">Learn</Link></li>
             <li><Link href="/blog">Blog</Link></li>
           </ul>
         </div>

@@ -24,7 +24,7 @@ export default function Blog() {
       title: 'Tax Perks vs. Tax Strategy: Do You Know the Difference?',
       date: 'August 22, 2025',
       summary:
-        'A recent LinkedIn post explains why tax “perks” and true tax strategies are not the same thing. Perks are deductions and credits everyone knows, while strategies are incentives built into the code that reward building, giving and investing.',
+        'Ever wonder if you’re only scratching the surface with deductions? Perks are just the appetizer — true strategies are the main course.',
       content: (
         <div>
           <p>
@@ -35,14 +35,10 @@ export default function Blog() {
             loopholes; they’re legal pathways to build wealth.
           </p>
           <ul style={{ paddingLeft: '1.25rem', marginTop: '0.75rem', marginBottom: '0.75rem' }}>
-            <li style={{ marginBottom: '0.5rem' }}>Strategies reward those who invest, build or give in specific ways and can produce real
-              benefits beyond basic savings.</li>
-            <li style={{ marginBottom: '0.5rem' }}>Every opportunity comes with risk; weighing those risks against your comfort level is
-              critical.</li>
-            <li style={{ marginBottom: '0.5rem' }}>A financial quarterback helps demystify the rules and tailor strategies to your unique
-              situation.</li>
-            <li>The difference between a perk and a strategy isn’t semantics — it’s the difference between
-              saving a little and building generational wealth.</li>
+            <li style={{ marginBottom: '0.5rem' }}>💼 Strategies reward those who invest, build or give in specific ways and can produce real benefits beyond basic savings.</li>
+            <li style={{ marginBottom: '0.5rem' }}>⚖️ Every opportunity comes with risk; weighing those risks against your comfort level is critical.</li>
+            <li style={{ marginBottom: '0.5rem' }}>🏈 A financial quarterback helps demystify the rules and tailor strategies to your unique situation.</li>
+            <li>💡 The difference between a perk and a strategy isn’t semantics — it’s the difference between saving a little and building generational wealth.</li>
           </ul>
           <p>
             Ask yourself: are you satisfied with a few tax perks, or are you ready to play the long game
@@ -56,7 +52,7 @@ export default function Blog() {
       title: 'Why “Fair Share” Doesn’t Exist in the Tax Code',
       date: 'August 17, 2025',
       summary:
-        'In this post, Anil challenges the idea of paying your “fair share” of taxes and points out that the U.S. tax code is designed to incentivise growth and generosity, not just collect revenue.',
+        'Think everyone pays the same “fair share”? Think again – the tax code is full of levers and ladders.',
       content: (
         <div>
           <p>
@@ -66,14 +62,10 @@ export default function Blog() {
             ignore them often pay more than they should.
           </p>
           <ul style={{ paddingLeft: '1.25rem', marginTop: '0.75rem', marginBottom: '0.75rem' }}>
-            <li style={{ marginBottom: '0.5rem' }}>There’s no such thing as a one‑size‑fits‑all “fair share” — the code provides
-              opportunities to engineer wealth legally and strategically.</li>
-            <li style={{ marginBottom: '0.5rem' }}>Taxes depend on the rules you know and the strategies you follow; smart professionals
-              don’t just pay taxes, they use the code to build wealth.</li>
-            <li style={{ marginBottom: '0.5rem' }}>The real question isn’t whether you’re paying enough — it’s whether you’re using the tax
-              code to both contribute to society and grow your own wealth.</li>
-            <li>Having the right conversations with a knowledgeable advisor is essential to unlock the
-              tax code’s full potential.</li>
+            <li style={{ marginBottom: '0.5rem' }}>📊 There’s no such thing as a one‑size‑fits‑all “fair share” — the code provides opportunities to engineer wealth legally and strategically.</li>
+            <li style={{ marginBottom: '0.5rem' }}>📘 Taxes depend on the rules you know and the strategies you follow; smart professionals don’t just pay taxes, they use the code to build wealth.</li>
+            <li style={{ marginBottom: '0.5rem' }}>🎯 The real question isn’t whether you’re paying enough — it’s whether you’re using the tax code to both contribute to society and grow your own wealth.</li>
+            <li>💬 Having the right conversations with a knowledgeable advisor is essential to unlock the tax code’s full potential.</li>
           </ul>
         </div>
       )
@@ -83,7 +75,7 @@ export default function Blog() {
       title: 'The Silent Risks Hiding in 7‑Figure Incomes',
       date: 'June 19, 2025',
       summary:
-        'Seven‑figure earners have achieved a major milestone, but hidden pitfalls can erode their success. This long‑form article highlights overlooked risks and the planning needed to stay ahead.',
+        'Hitting seven figures is a thrill but hidden traps can bring you back down to earth – learn how to sidestep them.',
       content: (
         <div>
           <p>
@@ -93,14 +85,10 @@ export default function Blog() {
             turn seven figures into lasting wealth, you must tackle those blind spots head‑on.
           </p>
           <ul style={{ paddingLeft: '1.25rem', marginTop: '0.75rem', marginBottom: '0.75rem' }}>
-            <li style={{ marginBottom: '0.5rem' }}>Many million‑dollar earners pay more tax than necessary because they lack a strategy
-              to optimise deductions, credits and entity structures.</li>
-            <li style={{ marginBottom: '0.5rem' }}>Lifestyle creep — spending more as you earn more — quietly reduces investable cash
-              and slows progress toward independence.</li>
-            <li style={{ marginBottom: '0.5rem' }}>Undiversified portfolios (such as heavy exposure to employer stock or a single asset
-              class) amplify downside risk.</li>
-            <li>A robust plan integrates tax optimisation, disciplined spending, diversified investing and
-              estate planning to safeguard and grow high incomes.</li>
+            <li style={{ marginBottom: '0.5rem' }}>💵 Many million‑dollar earners pay more tax than necessary because they lack a strategy to optimise deductions, credits and entity structures.</li>
+            <li style={{ marginBottom: '0.5rem' }}>💳 Lifestyle creep — spending more as you earn more — quietly reduces investable cash and slows progress toward independence.</li>
+            <li style={{ marginBottom: '0.5rem' }}>📉 Undiversified portfolios (such as heavy exposure to employer stock or a single asset class) amplify downside risk.</li>
+            <li>🧠 A robust plan integrates tax optimisation, disciplined spending, diversified investing and estate planning to safeguard and grow high incomes.</li>
           </ul>
           <p>
             Making seven figures is just the beginning. The key is to transform income into
@@ -114,7 +102,7 @@ export default function Blog() {
       title: 'Have a Family? You Need a Will — Not Just a Paycheck',
       date: 'May 2025',
       summary:
-        'In this quick read, Anil reminds high‑earning professionals that a steady paycheck and even life insurance aren’t enough. A will and comprehensive estate plan are critical to protecting loved ones and passing on wealth effectively.',
+        'Paychecks keep the lights on, wills keep your legacy burning bright – don’t let probate put your family in the dark.',
       content: (
         <div>
           <p>
@@ -124,14 +112,10 @@ export default function Blog() {
             of the puzzle.
           </p>
           <ul style={{ paddingLeft: '1.25rem', marginTop: '0.75rem', marginBottom: '0.75rem' }}>
-            <li style={{ marginBottom: '0.5rem' }}>A will ensures your assets go where you intend and can expedite the transfer of
-              property to your heirs.</li>
-            <li style={{ marginBottom: '0.5rem' }}>An estate plan reduces tax friction and protects your family if you become
-              incapacitated.</li>
-            <li style={{ marginBottom: '0.5rem' }}>Relying solely on a paycheck or even life insurance can leave gaps — holistic planning
-              includes trusts, guardianship designations and beneficiary reviews.</li>
-            <li>Starting early and reviewing your plan regularly gives your family confidence and
-              clarity no matter what happens.</li>
+            <li style={{ marginBottom: '0.5rem' }}>📝 A will ensures your assets go where you intend and can expedite the transfer of property to your heirs.</li>
+            <li style={{ marginBottom: '0.5rem' }}>🔐 An estate plan reduces tax friction and protects your family if you become incapacitated.</li>
+            <li style={{ marginBottom: '0.5rem' }}>🏠 Relying solely on a paycheck or even life insurance can leave gaps — holistic planning includes trusts, guardianship designations and beneficiary reviews.</li>
+            <li>📅 Starting early and reviewing your plan regularly gives your family confidence and clarity no matter what happens.</li>
           </ul>
           <p>
             Don’t wait until it’s too late. Building a solid will and estate plan is an act of love
@@ -145,7 +129,7 @@ export default function Blog() {
       title: 'Is Tax Your Biggest Expense?',
       date: 'July 2025',
       summary:
-        'Anil reminds high‑earning professionals that taxes are often their single largest expense — bigger than housing or travel. Without proactive planning, this cost erodes wealth faster than you think.',
+        'Your biggest bill might not be your mortgage – it’s your taxes! See how to shrink it.',
       content: (
         <div>
           <p>
@@ -155,13 +139,10 @@ export default function Blog() {
             planning their tax strategy.
           </p>
           <ul style={{ paddingLeft: '1.25rem', marginTop: '0.75rem', marginBottom: '0.75rem' }}>
-            <li style={{ marginBottom: '0.5rem' }}>Your tax bill often exceeds your mortgage, car payments or vacation spend.</li>
-            <li style={{ marginBottom: '0.5rem' }}>Treat tax planning like any other major purchase — research, negotiate and leverage
-              incentives to minimise what you owe.</li>
-            <li style={{ marginBottom: '0.5rem' }}>Choosing the right entity, retirement vehicles and charitable strategies can
-              dramatically reduce your overall effective rate.</li>
-            <li>Tax efficiency is key to accelerating wealth — don’t overlook the expense that
-              matters most.</li>
+            <li style={{ marginBottom: '0.5rem' }}>💸 Your tax bill often exceeds your mortgage, car payments or vacation spend.</li>
+            <li style={{ marginBottom: '0.5rem' }}>🛒 Treat tax planning like any other major purchase — research, negotiate and leverage incentives to minimise what you owe.</li>
+            <li style={{ marginBottom: '0.5rem' }}>🏦 Choosing the right entity, retirement vehicles and charitable strategies can dramatically reduce your overall effective rate.</li>
+            <li>🚀 Tax efficiency is key to accelerating wealth — don’t overlook the expense that matters most.</li>
           </ul>
         </div>
       )
@@ -171,7 +152,7 @@ export default function Blog() {
       title: 'How Much of Your Portfolio Is in Risk Assets?',
       date: 'July 2025',
       summary:
-        'This post challenges readers to examine their investment mix. Concentrated bets in volatile assets can jeopardise long‑term goals; diversification and hedging are essential.',
+        'Is your portfolio a roller coaster? Find balance before the ride gets too wild.',
       content: (
         <div>
           <p>
@@ -181,13 +162,10 @@ export default function Blog() {
             and legacy.
           </p>
           <ul style={{ paddingLeft: '1.25rem', marginTop: '0.75rem', marginBottom: '0.75rem' }}>
-            <li style={{ marginBottom: '0.5rem' }}>Review how much of your net worth is tied up in employer stock or speculative assets.</li>
-            <li style={{ marginBottom: '0.5rem' }}>Diversification across asset classes — equities, fixed income, real estate and
-              alternatives — reduces downside risk.</li>
-            <li style={{ marginBottom: '0.5rem' }}>Use hedging strategies and defensive allocations to keep portfolio volatility within
-              your comfort zone.</li>
-            <li>Working with an advisor ensures your investment mix aligns with your goals,
-              timelines and risk tolerance.</li>
+            <li style={{ marginBottom: '0.5rem' }}>📊 Review how much of your net worth is tied up in employer stock or speculative assets.</li>
+            <li style={{ marginBottom: '0.5rem' }}>🌱 Diversification across asset classes — equities, fixed income, real estate and alternatives — reduces downside risk.</li>
+            <li style={{ marginBottom: '0.5rem' }}>🛡️ Use hedging strategies and defensive allocations to keep portfolio volatility within your comfort zone.</li>
+            <li>🤝 Working with an advisor ensures your investment mix aligns with your goals, timelines and risk tolerance.</li>
           </ul>
         </div>
       )
@@ -212,10 +190,11 @@ export default function Blog() {
           </div>
           <ul className="nav-links">
             <li><Link href="/">Home</Link></li>
-            <li><Link href="/education">Education</Link></li>
-            <li><Link href="/strategies">Strategies</Link></li>
-            <li><Link href="/vault">Vault</Link></li>
-            <li><Link href="/partners">Partners</Link></li>
+            {/* Anchor links point back to sections on the landing page */}
+            <li><a href="/#services">Services</a></li>
+            <li><a href="/#what">What I Do</a></li>
+            <li><a href="/#philosophy">Philosophy</a></li>
+            <li><Link href="/education">Learn</Link></li>
             <li><Link href="/blog">Blog</Link></li>
           </ul>
         </div>
@@ -223,9 +202,15 @@ export default function Blog() {
       <div style={{ paddingTop: '80px', paddingBottom: '2rem' }}>
         <div className="container">
           <h1 style={{ textAlign: 'center', color: 'var(--secondary-color)', marginBottom: '1rem' }}>Insights &amp; Articles</h1>
+          <p style={{ textAlign: 'center', color: '#555', marginBottom: '1rem' }}>
+            Our latest thinking on tax‑smart planning, equity compensation and legacy building. Expand an article to read more.
+          </p>
           <p style={{ textAlign: 'center', color: '#555', marginBottom: '2rem' }}>
-            Our latest thinking on tax‑smart planning, equity compensation and legacy building. Expand
-            an article to read more.
+            Want even more insights? Follow Anil on{' '}
+            <a href="https://www.linkedin.com/in/anilaimsfin/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--primary-color)', textDecoration: 'underline' }}>
+              LinkedIn
+            </a>{' '}
+            for bite‑sized updates and behind‑the‑scenes tips 💼.
           </p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem' }}>
             {posts.map((post) => (
