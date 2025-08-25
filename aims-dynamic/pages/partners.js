@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Partners() {
   return (
@@ -6,20 +7,21 @@ export default function Partners() {
       <Head>
         <title>Partners – AIMS Financials</title>
       </Head>
+      {/* Shared navigation */}
       <nav className="navbar">
         <div className="nav-container">
           <div className="logo">
-            <a href="/">
+            <Link href="/">
               <img src="/logo.png" alt="AIMS Financials logo" />
-            </a>
+            </Link>
           </div>
           <ul className="nav-links">
-            <li><a href="/">Home</a></li>
-            <li><a href="/education">Education</a></li>
-            <li><a href="/strategies">Strategies</a></li>
-            <li><a href="/vault">Vault</a></li>
-            <li><a href="/partners">Partners</a></li>
-            <li><a href="/blog">Blog</a></li>
+            <li><Link href="/">Home</Link></li>
+            <li><Link href="/education">Education</Link></li>
+            <li><Link href="/strategies">Strategies</Link></li>
+            <li><Link href="/vault">Vault</Link></li>
+            <li><Link href="/partners">Partners</Link></li>
+            <li><Link href="/blog">Blog</Link></li>
           </ul>
         </div>
       </nav>
