@@ -1,6 +1,6 @@
 export const meta = {
   title: "529 Plans & Education Trusts",
-  slug: "529-education",
+  slug: "529_education",
   group: "Planning Structures"
 };
 
