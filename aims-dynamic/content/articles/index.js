@@ -47,7 +47,7 @@ import * as whole_life from './whole-life';
 import * as will from './will';
 
 export const allArticles = [
-  529_education,
+  education_529,
   annuities,
   basics_of_trusts,
   cash_value_insurance,
