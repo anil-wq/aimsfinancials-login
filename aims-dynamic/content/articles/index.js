@@ -1,5 +1,5 @@
 // Auto-generated index of articles
-import * as 529_education from './529-education';
+import * as education_529 from './education_529';
 import * as annuities from './annuities';
 import * as basics_of_trusts from './basics-of-trusts';
 import * as cash_value_insurance from './cash-value-insurance';
