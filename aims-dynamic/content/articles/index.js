@@ -6,8 +6,10 @@ import * as whole from './whole-life';
 import * as iul from './iul';
 import * as vul from './vul';
 import * as ppli from './ppli';
-import * as survivorship from './survivorship';
+// import removed Survivorship Life article; no longer exported
 import * as revocable from './revocable-trust';
+import * as irrevocableTrust from './irrevocable-trust';
+import * as basicsOfTrusts from './basics-of-trusts';
 import * as testamentary from './testamentary-trust';
 import * as specialNeeds from './special-needs-trust';
 import * as ilit from './ilit';
@@ -23,6 +25,13 @@ import * as munis from './munis';
 import * as reits from './reits';
 import * as privateEquity from './private-equity';
 import * as annuities from './annuities';
+import * as ira from './ira';
+import * as rothIra from './roth-ira';
+import * as roth401k from './roth-401k';
+import * as lirps from './lirps';
+import * as socialSecurity from './social-security';
+import * as longTermCare from './long-term-care';
+import * as cashValueInsurance from './cash-value-insurance';
 import * as flp from './flp';
 import * as qprt from './qprt';
 import * as education from './529-education';
@@ -35,8 +44,9 @@ export const allArticles = [
   iul,
   vul,
   ppli,
-  survivorship,
   revocable,
+  irrevocableTrust,
+  basicsOfTrusts,
   testamentary,
   specialNeeds,
   ilit,
@@ -52,6 +62,13 @@ export const allArticles = [
   reits,
   privateEquity,
   annuities,
+  ira,
+  rothIra,
+  roth401k,
+  lirps,
+  socialSecurity,
+  longTermCare,
+  cashValueInsurance,
   flp,
   qprt,
   education

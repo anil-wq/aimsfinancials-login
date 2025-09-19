@@ -23,11 +23,14 @@ export default function Education() {
     catalog.forEach(sec => { initial[sec.group] = false; });
     return initial;
   });
+  // Search has been removed; keep state for potential future filtering but not displayed
   const [searchTerm, setSearchTerm] = useState('');
 
   // Icon mappings reused from dashboard
   const groupIcons = {
-    'Insurance': 'shield-outline',
+    'Temporary Life Insurance': 'time-outline',
+    'Cash Value Life Insurance': 'wallet-outline',
+    'Retirement Planning': 'time-outline',
     'Trusts (Core)': 'document-text-outline',
     'Trusts (Advanced / Estate)': 'lock-closed-outline',
     'Charitable': 'heart-outline',
@@ -36,12 +39,21 @@ export default function Education() {
   };
   const itemIcons = {
     'term-life': 'time-outline',
+    'cash-value-insurance': 'wallet-outline',
     'whole-life': 'infinite-outline',
     'iul': 'analytics-outline',
     'vul': 'pulse-outline',
     'ppli': 'document-attach-outline',
-    'survivorship': 'people-outline',
+    'ira': 'card-outline',
+    'roth-ira': 'card-outline',
+    'roth-401k': 'card-outline',
+    'lirps': 'shield-outline',
+    'annuities': 'cash-outline',
+    'social-security': 'people-circle-outline',
+    'long-term-care': 'medkit-outline',
+    'basics-of-trusts': 'book-outline',
     'revocable-trust': 'file-tray-full-outline',
+    'irrevocable-trust': 'lock-closed-outline',
     'testamentary-trust': 'file-tray-stacked-outline',
     'special-needs-trust': 'accessibility-outline',
     'ilit': 'lock-closed-outline',
@@ -56,7 +68,6 @@ export default function Education() {
     'munis': 'pricetag-outline',
     'reits': 'business-outline',
     'private-equity': 'cube-outline',
-    'annuities': 'cash-outline',
     'flp': 'briefcase-outline',
     'qprt': 'home-outline',
     '529-education': 'school-outline'
@@ -87,29 +98,22 @@ export default function Education() {
               <img src="/logo.png" alt="AIMS Financials logo" />
             </Link>
           </div>
-          <ul className="nav-links">
-            <li><Link href="/">Home</Link></li>
-            <li><Link href="/education">Education</Link></li>
-          </ul>
+      <ul className="nav-links">
+        <li><Link href="/">Home</Link></li>
+        <li><Link href="/education">Education</Link></li>
+        <li><Link href="/blogs">Blogs</Link></li>
+      </ul>
         </div>
       </nav>
       <div style={{ paddingTop: '80px', paddingBottom: '2rem' }}>
         <div className="container">
           <h2 style={{ color: 'var(--secondary-color)', textAlign: 'center', marginBottom: '1rem' }}>Financial Education</h2>
           <p style={{ textAlign: 'center', marginBottom: '2rem' }}>
-            Browse our library of in‑depth articles on planning, trusts, insurance and more. Use the search bar or expand a section to begin.
+            Browse our library of in‑depth articles on planning, trusts, insurance and more. Expand a section to begin.
           </p>
           <div className="dashboard-layout">
             <aside className="sidebar">
-              <div className="search-bar">
-                <ion-icon name="search-outline"></ion-icon>
-                <input
-                  type="text"
-                  placeholder="Search topics..."
-                  value={searchTerm}
-                  onChange={(e) => setSearchTerm(e.target.value)}
-                />
-              </div>
+              {/* Search bar removed as per requirements */}
               {catalog.map((section) => (
                 <div key={section.group} className="group">
                   <button

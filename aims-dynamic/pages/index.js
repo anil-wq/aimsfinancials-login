@@ -35,9 +35,11 @@ export default function Home() {
             <li><a href="#">Home</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#what">What I Do</a></li>
+            <li><a href="#process">Process</a></li>
             <li><a href="#philosophy">Philosophy</a></li>
-            {/* Education tab links to the open-access education page */}
+            {/* Education tab links to the open‑access education page */}
             <li><a href="/education">Education</a></li>
+            <li><a href="/blogs">Blogs</a></li>
           </ul>
         </div>
       </nav>
@@ -46,11 +48,10 @@ export default function Home() {
         <div className="overlay"></div>
         <div className="hero-content">
           <h1>
-            Strategic Wealth for <span className="highlight">Freedom &amp; Legacy</span>
+            Helping Engineering Executives <span className="highlight">Maximize Wealth</span>
           </h1>
           <p>
-            AIMS Financials helps you orchestrate taxes, equity and estate planning so
-            every move supports the life you want to build.
+            We deploy smart tax strategies and coordinate your equity and estate plans to build wealth and protect your legacy.
           </p>
           <div className="hero-buttons">
             <a
@@ -182,6 +183,43 @@ export default function Home() {
                   <p>Maximize your equity comp without unnecessary tax surprises.</p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Process Section */}
+      <section id="process" className="process-section" style={{ backgroundColor: 'var(--light-gray)', padding: '4rem 0' }}>
+        <div className="container">
+          <h2 style={{ textAlign: 'center', marginBottom: '1rem' }}>What Happens After a Fit Call</h2>
+          <p className="section-description" style={{ textAlign: 'center', maxWidth: '800px', margin: '0 auto 2rem' }}>
+            Our collaborative process ensures your unique goals are at the center of every recommendation. Here’s how we work together after our initial fit call.
+          </p>
+          <div className="process-steps" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1.5rem' }}>
+            <div className="step-card" style={{ backgroundColor: 'white', borderRadius: '8px', padding: '1.5rem', boxShadow: '0 2px 6px rgba(0,0,0,0.05)' }}>
+              <ion-icon name="people-outline" style={{ fontSize: '2rem', color: 'var(--secondary-color)' }}></ion-icon>
+              <h3>Discovery &amp; Data Gathering</h3>
+              <p>We listen to your story and collect detailed information about your objectives, income, assets and family dynamics.</p>
+            </div>
+            <div className="step-card" style={{ backgroundColor: 'white', borderRadius: '8px', padding: '1.5rem', boxShadow: '0 2px 6px rgba(0,0,0,0.05)' }}>
+              <ion-icon name="document-text-outline" style={{ fontSize: '2rem', color: 'var(--secondary-color)' }}></ion-icon>
+              <h3>Analysis &amp; Plan Design</h3>
+              <p>We craft a tailored strategy that integrates tax planning, investments and estate structures to achieve your goals.</p>
+            </div>
+            <div className="step-card" style={{ backgroundColor: 'white', borderRadius: '8px', padding: '1.5rem', boxShadow: '0 2px 6px rgba(0,0,0,0.05)' }}>
+              <ion-icon name="sync-outline" style={{ fontSize: '2rem', color: 'var(--secondary-color)' }}></ion-icon>
+              <h3>Implementation &amp; Coordination</h3>
+              <p>We work with you and your other advisors (attorneys, CPAs) to put the plan into action, overseeing every moving part.</p>
+            </div>
+            <div className="step-card" style={{ backgroundColor: 'white', borderRadius: '8px', padding: '1.5rem', boxShadow: '0 2px 6px rgba(0,0,0,0.05)' }}>
+              <ion-icon name="refresh-circle-outline" style={{ fontSize: '2rem', color: 'var(--secondary-color)' }}></ion-icon>
+              <h3>Ongoing Support &amp; Reviews</h3>
+              <p>We continuously monitor progress, adapt the plan as life and laws change, and provide clear reporting.</p>
+            </div>
+            <div className="step-card" style={{ backgroundColor: 'white', borderRadius: '8px', padding: '1.5rem', boxShadow: '0 2px 6px rgba(0,0,0,0.05)' }}>
+              <ion-icon name="pricetag-outline" style={{ fontSize: '2rem', color: 'var(--secondary-color)' }}></ion-icon>
+              <h3>Transparent Fees</h3>
+              <p>Our compensation is clear and agreed upon up front—no hidden commissions. You’ll always know what you’re paying and why.</p>
             </div>
           </div>
         </div>
