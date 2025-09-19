@@ -1,40 +1,38 @@
 export const meta = {
   title: "Private Placement Life Insurance (PPLI)",
   slug: "ppli",
-  group: "Insurance"
+  group: "Cash Value Life Insurance"
 };
 
 export const content = (
   <>
+    <h2>Private Placement Life Insurance (PPLI)</h2>
     <h3>What it is</h3>
-    <p>PPLI is a custom variable life policy offered to accredited investors and qualified purchasers. It combines a death benefit with an individually managed separate account that can hold hedge funds, private credit or other alternative investments. Fees are significantly lower than retail variable policies.</p>
+    <p>PPLI is a bespoke life insurance solution for accredited/high-net-worth investors offering access to institutional investment strategies inside a life insurance policy wrapper.</p>
 
-    <h3>Where it fits</h3>
-    <ul>
-      <li>High‑net‑worth investors seeking to wrap tax‑inefficient strategies in a tax‑advantaged insurance chassis.</li>
-      <li>Long‑term wealth‑transfer planning when paired with an ILIT to keep the policy outside the taxable estate.</li>
-      <li>Families desiring bespoke investment allocations and confidentiality not available in retail products.</li>
-    </ul>
+    <h3>Why someone needs it</h3>
+    <p>PPLI reduces costs, allows customized investments, and often enables favorable tax and privacy outcomes for sophisticated investors.</p>
 
     <h3>Advantages</h3>
     <ul>
-      <li>Institutional fee structure compared with retail variable policies; access to alternative investment managers.</li>
-      <li>Tax‑deferred growth of investments and tax‑free death benefit when structured properly.</li>
-      <li>Ability to invest in customized strategies (hedge funds, private equity, SMAs) within the policy.</li>
+      <li>Institutional pricing and investment options</li><li>Customization for complex asset types</li><li>Potentially superior tax efficiency and privacy</li>
     </ul>
 
-    <h3>Disadvantages / Risks</h3>
+    <h3>Disadvantages & Risks</h3>
     <ul>
-      <li>Restricted to accredited investors and subject to high minimum premiums.</li>
-      <li>Complex regulatory requirements; must satisfy investor‑control and diversification rules to maintain tax status.</li>
-      <li>Illiquidity and long time horizon; charges and early surrender penalties may apply.</li>
+      <li>Requires high minimum investments and accreditation</li><li>Complex legal and investment due diligence</li><li>Regulatory and suitability considerations</li>
     </ul>
 
-    <h3>HNW use‑cases</h3>
+    <h3>Impact of having it (or not)</h3>
+    <p>PPLI can be a powerful tax-efficient vehicle for large portfolios. Omitting PPLI may lead to higher taxes or poor alignment for complex holdings.</p>
+
+    <h3>High-net-worth use cases</h3>
     <ul>
-      <li>Dynastic wealth planning when coupled with an ILIT in favorable jurisdictions (e.g., South Dakota).</li>
-      <li>Wrapping hedge, credit or other high‑turnover strategies to eliminate annual income taxation.</li>
-      <li>Leveraging premium financing to conserve capital while funding the policy.</li>
+      <li>Ultra-high-net-worth families consolidating alternative assets into an insurance wrapper</li><li>Large concentrated positions seeking tax deferral inside policy</li>
     </ul>
+
+    <h3>Estate planning perspective</h3>
+    <p>PPLI is often held in trust (ILIT) or corporate structures to maximize estate planning benefits and maintain compliance.</p>
+
   </>
 );

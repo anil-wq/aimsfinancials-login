@@ -1,40 +1,38 @@
 export const meta = {
   title: "Variable Universal Life (VUL)",
   slug: "vul",
-  group: "Insurance"
+  group: "Cash Value Life Insurance"
 };
 
 export const content = (
   <>
+    <h2>Variable Universal Life (VUL)</h2>
     <h3>What it is</h3>
-    <p>VUL is permanent life insurance that combines flexible premiums and death benefits with investment options. Policy cash values are allocated to subaccounts similar to mutual funds, exposing the policyholder to market gains and losses.</p>
+    <p>Variable UL allocates cash value into subaccounts (similar to mutual funds). Policyholders assume investment risk and return and have greater upside potential.</p>
 
-    <h3>Where it fits</h3>
-    <ul>
-      <li>For investors who want both life insurance and the potential for higher investment returns.</li>
-      <li>To accumulate wealth tax‑deferred and access it through policy loans or withdrawals.</li>
-      <li>When paired with an ILIT to provide estate‑tax liquidity with growth potential.</li>
-    </ul>
+    <h3>Why someone needs it</h3>
+    <p>VUL is attractive for clients comfortable with investment volatility who want direct market exposure within a tax-advantaged wrapper.</p>
 
     <h3>Advantages</h3>
     <ul>
-      <li>Highest long‑term growth potential among permanent policies through equity‑style subaccounts.</li>
-      <li>Tax‑deferred accumulation of investment gains and the possibility of tax‑free distributions if managed properly.</li>
-      <li>Flexibility to allocate among different investment options and adjust premiums and death benefit.</li>
+      <li>High upside potential tied to market subaccounts</li><li>Investment control and customization</li><li>Flexible premium structures</li>
     </ul>
 
-    <h3>Disadvantages / Risks</h3>
+    <h3>Disadvantages & Risks</h3>
     <ul>
-      <li>Market risk—poor performance can deplete cash value and cause the policy to lapse unless additional premiums are paid.</li>
-      <li>Higher fees than other policy types; requires active management of investments and periodic rebalancing.</li>
-      <li>Loans and withdrawals reduce the death benefit and cash value; over‑loaning can create taxable events.</li>
+      <li>Downside risk to cash value and potential for lapse</li><li>More regulatory complexity and required disclosures</li><li>Higher fees for investment management and insurance costs</li>
     </ul>
 
-    <h3>HNW use‑cases</h3>
+    <h3>Impact of having it (or not)</h3>
+    <p>VUL can accelerate cash accumulation but carries market downside. Not having VUL limits tax-sheltered market exposure options.</p>
+
+    <h3>High-net-worth use cases</h3>
     <ul>
-      <li>Paired with an ILIT to provide estate‑tax liquidity while pursuing long‑term investment growth.</li>
-      <li>Private placement variants (PPLI) offer institutional pricing and bespoke investments for accredited investors.</li>
-      <li>Appropriate for investors with high risk tolerance and long time horizons; requires regular monitoring.</li>
+      <li>High-net-worth investors who want inside-baseball management of investments</li><li>Clients using VUL to complement other investment portfolios</li>
     </ul>
+
+    <h3>Estate planning perspective</h3>
+    <p>VUL may be included in estate plans but requires careful monitoring and trust alignment to manage investment and tax outcomes.</p>
+
   </>
 );

@@ -1,40 +1,38 @@
 export const meta = {
   title: "Whole Life Insurance",
   slug: "whole-life",
-  group: "Insurance"
+  group: "Cash Value Life Insurance"
 };
 
 export const content = (
   <>
+    <h2>Whole Life Insurance</h2>
     <h3>What it is</h3>
-    <p>Whole life is permanent insurance that combines guaranteed premiums, a fixed death benefit and a contractually guaranteed cash‑value schedule. Participating policies may pay dividends that increase both the cash value and death benefit.</p>
+    <p>Whole life is a permanent life insurance contract providing level premiums, a guaranteed death benefit, and a cash value component that grows at a rate declared by the insurer (dividends for mutual insurers).</p>
 
-    <h3>Where it fits</h3>
-    <ul>
-      <li>Long‑term estate planning and liquidity needs where guarantees are paramount.</li>
-      <li>A conservative component of a private balance sheet, serving as a "bond proxy" with tax‑advantaged growth.</li>
-      <li>Supplemental retirement funding through policy loans or withdrawals of basis.</li>
-    </ul>
+    <h3>Why someone needs it</h3>
+    <p>Used for long-term guaranteed protection and conservative cash-value accumulation with predictable features.</p>
 
     <h3>Advantages</h3>
     <ul>
-      <li>Guarantees on premiums, death benefit and minimum cash‑value accumulation.</li>
-      <li>Eligibility for dividends (on participating policies) can accelerate growth through paid‑up additions.</li>
-      <li>Policy loans provide tax‑advantaged access to cash value without surrendering the policy, if managed prudently.</li>
+      <li>Guaranteed death benefit (if premiums paid)</li><li>Stable, conservative cash value growth</li><li>Dividends (when declared) can enhance returns</li>
     </ul>
 
-    <h3>Disadvantages / Risks</h3>
+    <h3>Disadvantages & Risks</h3>
     <ul>
-      <li>Higher premiums than term or universal life; early surrender charges and slower cash‑value growth in the early years.</li>
-      <li>Less flexibility to adjust premiums or coverage amounts once the policy is issued.</li>
-      <li>Dividends are not guaranteed and depend on insurer performance; over‑funding may trigger modified endowment contract (MEC) status.</li>
+      <li>High initial cost vs term</li><li>Limited flexibility on premium patterns and policy changes</li><li>Lower early cash value growth due to higher initial expenses</li>
     </ul>
 
-    <h3>HNW use‑cases</h3>
+    <h3>Impact of having it (or not)</h3>
+    <p>Including whole life in a plan can provide highly reliable death benefit guarantees. Omitting it means relying on other sources for permanent guarantees which may increase estate risk.</p>
+
+    <h3>High-net-worth use cases</h3>
     <ul>
-      <li>Owned inside an ILIT to provide estate‑tax liquidity and asset protection.</li>
-      <li>Used as a stable, tax‑advantaged asset in high‑net‑worth portfolios; functions as a cash reserve with guaranteed returns.</li>
-      <li>Can be financed through premium‑financing arrangements to leverage low interest rates, with appropriate stress‑testing.</li>
+      <li>Legacy planning where guarantees and predictable payouts are essential</li><li>Supplemental conservative savings for wealthy clients who value guarantees</li>
     </ul>
+
+    <h3>Estate planning perspective</h3>
+    <p>Whole life can be held in an ILIT for estate tax protection; however its lack of premium flexibility may limit tactical estate maneuvers.</p>
+
   </>
 );

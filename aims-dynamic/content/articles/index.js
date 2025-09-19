@@ -1,77 +1,51 @@
-// This file aggregates all article modules for easy import.
-// Each article file exports `meta` (title, slug, group) and `content` (React element).
-
-import * as term from './term-life';
-import * as whole from './whole-life';
-import * as iul from './iul';
-import * as vul from './vul';
-import * as ppli from './ppli';
-// import removed Survivorship Life article; no longer exported
-import * as revocable from './revocable-trust';
-import * as irrevocableTrust from './irrevocable-trust';
-import * as basicsOfTrusts from './basics-of-trusts';
-import * as testamentary from './testamentary-trust';
-import * as specialNeeds from './special-needs-trust';
-import * as ilit from './ilit';
-import * as grat from './grat';
-import * as idgt from './idgt';
-import * as crt from './crt';
-import * as clt from './clt';
-import * as dapt from './dapt';
-import * as daf from './daf';
-import * as privateFoundation from './private-foundation';
-import * as funds from './funds';
-import * as munis from './munis';
-import * as reits from './reits';
-import * as privateEquity from './private-equity';
-import * as annuities from './annuities';
+// Auto-generated index of articles
+import * as basics_of_trusts from './basics-of-trusts';
+import * as general_partnership from './general-partnership';
+import * as giul from './giul';
+import * as healthcare_poa from './healthcare-poa';
 import * as ira from './ira';
-import * as rothIra from './roth-ira';
-import * as roth401k from './roth-401k';
-import * as lirps from './lirps';
-import * as socialSecurity from './social-security';
-import * as longTermCare from './long-term-care';
-import * as cashValueInsurance from './cash-value-insurance';
-import * as flp from './flp';
-import * as qprt from './qprt';
-import * as education from './529-education';
-
-// Add new imports here as you create more article files.
+import * as irrevocable_trust from './irrevocable-trust';
+import * as iul from './iul';
+import * as k401 from './k401';
+import * as lifetime_income_annuities from './lifetime-income-annuities';
+import * as limited_partnership from './limited-partnership';
+import * as long_term_care from './long-term-care';
+import * as mega_backdoor_roth from './mega-backdoor-roth';
+import * as power_of_attorney from './power-of-attorney';
+import * as ppli from './ppli';
+import * as revocable_trust from './revocable-trust';
+import * as roth_ira from './roth-ira';
+import * as social_security from './social-security';
+import * as term_life from './term-life';
+import * as trust_probate from './trust-probate';
+import * as universal_life from './universal-life';
+import * as vul from './vul';
+import * as whole_life from './whole-life';
+import * as will from './will';
 
 export const allArticles = [
-  term,
-  whole,
-  iul,
-  vul,
-  ppli,
-  revocable,
-  irrevocableTrust,
-  basicsOfTrusts,
-  testamentary,
-  specialNeeds,
-  ilit,
-  grat,
-  idgt,
-  crt,
-  clt,
-  dapt,
-  daf,
-  privateFoundation,
-  funds,
-  munis,
-  reits,
-  privateEquity,
-  annuities,
+  basics_of_trusts,
+  general_partnership,
+  giul,
+  healthcare_poa,
   ira,
-  rothIra,
-  roth401k,
-  lirps,
-  socialSecurity,
-  longTermCare,
-  cashValueInsurance,
-  flp,
-  qprt,
-  education
+  irrevocable_trust,
+  iul,
+  k401,
+  lifetime_income_annuities,
+  limited_partnership,
+  long_term_care,
+  mega_backdoor_roth,
+  power_of_attorney,
+  ppli,
+  revocable_trust,
+  roth_ira,
+  social_security,
+  term_life,
+  trust_probate,
+  universal_life,
+  vul,
+  whole_life,
+  will
 ];
-
-export const bySlug = Object.fromEntries(allArticles.map((a) => [a.meta.slug, a]));
+export const bySlug = Object.fromEntries(allArticles.map(a => [a.meta.slug, a]));
