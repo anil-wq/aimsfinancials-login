@@ -6,36 +6,33 @@ export const meta = {
 
 export const content = (
   <>
+    <h2>Municipal Bonds</h2>
     <h3>What it is</h3>
-    <p>Municipal bonds are debt securities issued by state and local governments to finance public projects such as schools, roads and utilities. They include general obligation bonds, backed by the issuer’s taxing authority, and revenue bonds, supported by project revenue.</p>
+    <p>Debt issued by state/local governments; interest often exempt from federal (and sometimes state) income tax.</p>
 
-    <h3>Where it fits</h3>
-    <ul>
-      <li>Investors seeking tax‑exempt income, particularly those in high tax brackets.</li>
-      <li>Conservative allocations aiming for steady income with relatively low default risk.</li>
-      <li>Creating laddered portfolios or managed accounts to match cash‑flow needs.</li>
-    </ul>
+    <h3>Why someone needs it</h3>
+    <p>Used for tax-advantaged income and portfolio ballast for high-bracket investors.</p>
 
     <h3>Advantages</h3>
     <ul>
-      <li>Interest income is generally exempt from federal income tax and may be exempt from state or local taxes for residents.</li>
-      <li>Historically low default rates compared with corporate bonds; many are rated investment grade.</li>
-      <li>Can be purchased individually or via mutual funds and ETFs for diversification and liquidity.</li>
+      <li>Tax-exempt income potential</li><li>Lower historical default rates for investment-grade munis</li><li>Custom ladders or SMA portfolios improve targeting</li>
     </ul>
 
-    <h3>Disadvantages / Risks</h3>
+    <h3>Disadvantages & Risks</h3>
     <ul>
-      <li>Lower yields than comparable taxable bonds; after‑tax advantage diminishes at lower tax brackets.</li>
-      <li>Subject to credit risk if the issuer’s finances deteriorate and interest‑rate risk if rates rise.</li>
-      <li>Some bonds may be subject to the alternative minimum tax (AMT) or affect Social Security taxation.</li>
-      <li>Bond funds can lose principal value when interest rates increase; non‑traded bonds may be illiquid.</li>
+      <li>Interest-rate and credit risk remain</li><li>AMT exposure for certain issues</li><li>Call risk and liquidity considerations</li>
     </ul>
 
-    <h3>HNW use‑cases</h3>
+    <h3>Impact of having it (or not)</h3>
+    <p>Munis can improve after-tax income; without them, fixed income may be less tax efficient for HNW investors.</p>
+
+    <h3>High-net-worth use cases</h3>
     <ul>
-      <li>High‑net‑worth investors use municipal bonds for tax‑efficient income and to diversify fixed‑income portfolios.</li>
-      <li>Separately managed accounts can tailor credit quality, state exposure and maturity ladders.</li>
-      <li>Consider the interplay with AMT and state tax benefits when constructing a portfolio.</li>
+      <li>HNW investors using state-specific munis for double tax exemption</li><li>Charitable planning with muni portfolios</li>
     </ul>
+
+    <h3>Estate planning perspective</h3>
+    <p>Estate step-up considerations for individual bonds; ensure titling and beneficiary designations align with plan.</p>
+
   </>
 );

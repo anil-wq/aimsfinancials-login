@@ -6,37 +6,33 @@ export const meta = {
 
 export const content = (
   <>
+    <h2>529 Plans & Education Trusts</h2>
     <h3>What it is</h3>
-    <p>529 plans are tax‑advantaged education savings accounts sponsored by states or educational institutions. Contributions grow tax‑deferred, and withdrawals are tax‑free when used for qualified education expenses such as tuition, room and board, and textbooks. Education trusts are irrevocable trusts designed to fund education for beneficiaries with more control over distributions.</p>
+    <p>529 plans are tax-advantaged savings for education; education trusts can add governance and control over distributions.</p>
 
-    <h3>Where it fits</h3>
-    <ul>
-      <li>Families seeking to save for college or K‑12 tuition while minimizing taxes.</li>
-      <li>High‑net‑worth individuals who want to earmark funds for descendants’ education while keeping assets out of the estate.</li>
-      <li>Situations where donors want to control how and when education funds are distributed, using trusts in lieu of or alongside 529 plans.</li>
-    </ul>
+    <h3>Why someone needs it</h3>
+    <p>Used to fund education for children/grandchildren with tax-deferred growth and potentially tax-free withdrawals.</p>
 
     <h3>Advantages</h3>
     <ul>
-      <li>Tax‑free growth and tax‑free withdrawals for qualified education expenses; many states offer tax deductions or credits for contributions.</li>
-      <li>High contribution limits and ability to “superfund” by making five years’ worth of gifts at once for gift‑tax purposes.</li>
-      <li>Owner retains control of the account; beneficiary can be changed to another family member if plans change.</li>
-      <li>Education trusts can provide customized terms, including staggered distributions and oversight by a trustee.</li>
+      <li>Tax-free qualified withdrawals</li><li>High aggregate contribution capacity with gift tax strategies</li><li>Portability and beneficiary changes allowed</li>
     </ul>
 
-    <h3>Disadvantages / Risks</h3>
+    <h3>Disadvantages & Risks</h3>
     <ul>
-      <li>Investment options are limited to the plan’s menu and may include age‑based portfolios; market fluctuations can affect account values.</li>
-      <li>Withdrawals for non‑qualified expenses incur income tax and a penalty on earnings.</li>
-      <li>529 assets may affect eligibility for financial aid when owned by parents; distributions from grandparent‑owned plans can reduce aid.</li>
-      <li>Education trusts require legal fees and administration; funds may be taxed at trust income‑tax rates if not distributed.</li>
+      <li>Non-qualified withdrawals incur tax/penalty on earnings</li><li>Investment menu constraints</li><li>State-specific rules and benefits vary</li>
     </ul>
 
-    <h3>HNW use‑cases</h3>
+    <h3>Impact of having it (or not)</h3>
+    <p>Proactive education funding can reduce future cash flow stress; skipping it may mean higher after-tax costs later.</p>
+
+    <h3>High-net-worth use cases</h3>
     <ul>
-      <li>Superfunding 529 plans for children or grandchildren to remove assets from the estate while front‑loading contributions.</li>
-      <li>Combining 529 plans with education trusts or custodial accounts to diversify control and tax treatment.</li>
-      <li>Using unused 529 balances for continuing education or transferring to another beneficiary; 529 funds can also be rolled into a Roth IRA within new limits.</li>
+      <li>Front-loading via 5-year gift election; pair with trusts for governance</li><li>HNW families combining 529s with UTMA/UGMA or dynasty trusts</li>
     </ul>
+
+    <h3>Estate planning perspective</h3>
+    <p>Coordinate with gift/estate exemptions; trustee provisions help prevent misuse and preserve intent.</p>
+
   </>
 );

@@ -6,37 +6,33 @@ export const meta = {
 
 export const content = (
   <>
+    <h2>Qualified Personal Residence Trust (QPRT)</h2>
     <h3>What it is</h3>
-    <p>A QPRT is an irrevocable trust that allows a homeowner to transfer a primary or vacation residence to beneficiaries at a reduced gift value while retaining the right to live in the home for a specified term. At the end of the term, ownership passes to the beneficiaries, and the residence is removed from the grantor’s estate.</p>
+    <p>An irrevocable trust that transfers a residence to beneficiaries at a discounted gift value while the grantor retains the right to live there for a term.</p>
 
-    <h3>Where it fits</h3>
-    <ul>
-      <li>Homeowners with valuable residences seeking to reduce estate and gift taxes while continuing to occupy the property.</li>
-      <li>Estate‑planning strategies in low interest‑rate environments to maximize the discount on the transfer value.</li>
-      <li>Part of a broader wealth‑transfer plan, often in conjunction with other trusts.</li>
-    </ul>
+    <h3>Why someone needs it</h3>
+    <p>Moves a high-value residence out of the estate efficiently while allowing continued use for the term.</p>
 
     <h3>Advantages</h3>
     <ul>
-      <li>Reduces estate taxes by freezing the value of the residence at the time of transfer.</li>
-      <li>Discounts the property’s value for gift‑tax purposes due to the grantor’s retained interest.</li>
-      <li>Allows the grantor to continue living in the home during the trust term and even afterwards by paying market rent.</li>
-      <li>The grantor can serve as trustee and maintain control over the residence during the trust term.</li>
+      <li>Gift tax discounts via retained term interest</li><li>Keeps use of home during term</li><li>Remainder passes to heirs at term end</li>
     </ul>
 
-    <h3>Disadvantages / Risks</h3>
+    <h3>Disadvantages & Risks</h3>
     <ul>
-      <li>The trust is irrevocable; terms cannot be changed once established.</li>
-      <li>If the grantor dies before the trust term ends, the property reverts to the estate and loses tax benefits.</li>
-      <li>Mortgage payments are treated as additional gifts, and the property cannot be refinanced without jeopardizing the trust.</li>
-      <li>The grantor remains responsible for property taxes and expenses during the term.</li>
+      <li>If grantor dies during term, estate inclusion risk</li><li>Loss of full control and flexibility</li><li>Post-term rent to continue occupancy must be at fair market value</li>
     </ul>
 
-    <h3>HNW use‑cases</h3>
+    <h3>Impact of having it (or not)</h3>
+    <p>QPRTs can materially reduce estate size; skipping them may leave appreciating real estate inside the estate.</p>
+
+    <h3>High-net-worth use cases</h3>
     <ul>
-      <li>High‑net‑worth individuals with appreciating primary or vacation homes who want to remove future appreciation from their estate.</li>
-      <li>Structured in conjunction with other trusts to control what happens after the QPRT term, such as pouring the home into a dynasty trust.</li>
-      <li>Careful term selection is critical; longer terms provide bigger discounts but increase the risk of mortality before the term ends.</li>
+      <li>HNW households with valuable primary or vacation homes in high-growth markets</li>
     </ul>
+
+    <h3>Estate planning perspective</h3>
+    <p>Pair with ILITs or liquidity strategies to handle property costs and equalization among heirs.</p>
+
   </>
 );

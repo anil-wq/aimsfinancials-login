@@ -6,36 +6,33 @@ export const meta = {
 
 export const content = (
   <>
+    <h2>Donor‑Advised Funds (DAFs)</h2>
     <h3>What it is</h3>
-    <p>A donor‑advised fund is a giving account held at a public charity. Donors make irrevocable contributions to the account, receive an immediate income‑tax deduction, and retain advisory privileges to recommend grants to qualified charities over time. The sponsoring organization legally controls the assets.</p>
+    <p>DAFs are charitable accounts allowing immediate deductions with the ability to recommend grants over time.</p>
 
-    <h3>Where it fits</h3>
-    <ul>
-      <li>Simplifying charitable giving for individuals who donate to multiple organizations.</li>
-      <li>Contributing appreciated securities for an immediate deduction and tax‑free growth before granting.</li>
-      <li>Pooling family giving and involving younger generations in philanthropy.</li>
-    </ul>
+    <h3>Why someone needs it</h3>
+    <p>Used to bunch deductions in high-income years and to streamline giving.</p>
 
     <h3>Advantages</h3>
     <ul>
-      <li>Immediate charitable deduction while retaining flexibility to decide which charities to support over time.</li>
-      <li>Contributions grow tax‑free, potentially increasing the amount available for future grants.</li>
-      <li>Low administrative burden; sponsoring organizations handle tax reporting and due diligence on grantees.</li>
-      <li>Donors can remain anonymous if desired, and minimum contribution thresholds are relatively low.</li>
+      <li>Immediate deduction (subject to AGI limits)</li><li>Administrative simplicity vs foundations</li><li>Anonymous granting possible</li>
     </ul>
 
-    <h3>Disadvantages / Risks</h3>
+    <h3>Disadvantages & Risks</h3>
     <ul>
-      <li>Donors cede legal control—the sponsoring organization has final say over investments and grant timing.</li>
-      <li>No legal requirement to distribute funds; assets can sit idle, and sponsors may charge management and advisory fees.</li>
-      <li>Fees and account minimums vary; philanthropic goals may be delayed if the fund is not actively granted.</li>
+      <li>Sponsor control over investments and grant approval</li><li>No binding legal control over assets post-gift</li><li>Deduction ceilings lower than some gifts to public charities</li>
     </ul>
 
-    <h3>HNW use‑cases</h3>
+    <h3>Impact of having it (or not)</h3>
+    <p>DAFs make giving easy and tax-efficient; without them, timing deductions may be difficult for irregular income years.</p>
+
+    <h3>High-net-worth use cases</h3>
     <ul>
-      <li>Front‑loading charitable deductions in high‑income years while granting over multiple years.</li>
-      <li>Complement or precursor to a private foundation; allows families to build a track record of giving before establishing a foundation.</li>
-      <li>Encourages multigenerational philanthropy without the administrative burden of a private foundation.</li>
+      <li>Tech executives deferring grant decisions after liquidity events</li><li>Pair DAF with appreciated stock gifts to avoid capital gains</li>
     </ul>
+
+    <h3>Estate planning perspective</h3>
+    <p>DAFs integrate with broader estate/charitable planning and can complement or precede private foundations.</p>
+
   </>
 );

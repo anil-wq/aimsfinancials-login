@@ -6,37 +6,33 @@ export const meta = {
 
 export const content = (
   <>
+    <h2>ETFs & Mutual Funds</h2>
     <h3>What it is</h3>
-    <p>Mutual funds and exchange‑traded funds (ETFs) are pooled investment vehicles that buy diversified portfolios of stocks, bonds or other assets. Mutual fund shares are priced once per day, while ETFs trade on exchanges like stocks throughout the day.</p>
+    <p>Pooled investment vehicles offering diversified exposure across asset classes. Mutual funds trade once per day; ETFs trade intraday like stocks.</p>
 
-    <h3>Where it fits</h3>
-    <ul>
-      <li>Building core exposure to broad markets or specific sectors in a cost‑efficient manner.</li>
-      <li>Giving investors diversification and professional management without selecting individual securities.</li>
-      <li>Allowing tactical allocation changes through intraday trading of ETFs.</li>
-    </ul>
+    <h3>Why someone needs it</h3>
+    <p>Foundational building blocks for diversified portfolios with low cost and tax efficiency (especially ETFs).</p>
 
     <h3>Advantages</h3>
     <ul>
-      <li>Diversification across many securities reduces single‑stock risk.</li>
-      <li>Professional managers handle research, trading and rebalancing; low minimum investments.</li>
-      <li>ETFs often have low expense ratios, intraday liquidity and potential tax efficiency.</li>
-      <li>Index funds track benchmarks with transparency; active funds offer potential to outperform (with higher fees).</li>
+      <li>Diversification and professional management</li><li>Broad exposure with low minimums</li><li>ETFs can be tax-efficient with in-kind redemptions</li>
     </ul>
 
-    <h3>Disadvantages / Risks</h3>
+    <h3>Disadvantages & Risks</h3>
     <ul>
-      <li>Subject to market volatility; investors can lose value if underlying markets decline.</li>
-      <li>Mutual funds may distribute capital gains creating tax liability; active funds may underperform benchmarks after fees.</li>
-      <li>Management fees and trading costs reduce returns; ETFs may have bid–ask spreads and tracking error.</li>
-      <li>Passive funds offer no downside protection and lock investors into index constituents regardless of fundamentals.</li>
+      <li>Managed fund fees and possible capital gains distributions</li><li>Tracking error vs benchmark for some ETFs</li><li>Behavioral risks (overtrading ETFs)</li>
     </ul>
 
-    <h3>HNW use‑cases</h3>
+    <h3>Impact of having it (or not)</h3>
+    <p>Without fund vehicles, investors may be underdiversified and pay higher costs for direct holdings.</p>
+
+    <h3>High-net-worth use cases</h3>
     <ul>
-      <li>Core building blocks for diversified portfolios; institutional share classes offer lower expense ratios.</li>
-      <li>Direct indexing and separately managed accounts may provide greater tax control for large portfolios.</li>
-      <li>Combining active and passive funds to express tactical views or access specialized strategies.</li>
+      <li>Core-satellite portfolio design, factor tilts, tax-loss harvesting with paired ETFs</li>
     </ul>
+
+    <h3>Estate planning perspective</h3>
+    <p>Consider tax location (taxable vs qualified accounts), wash-sale rules, and capital gains distribution timing.</p>
+
   </>
 );

@@ -1,41 +1,38 @@
 export const meta = {
   title: "Charitable Remainder Trust (CRT)",
   slug: "crt",
-  group: "Trusts (Advanced / Estate)"
+  group: "Estate Planning — Advanced"
 };
 
 export const content = (
   <>
+    <h2>Charitable Remainder Trust (CRT)</h2>
     <h3>What it is</h3>
-    <p>A CRT is an irrevocable trust into which a donor transfers assets. The trust makes annual payments to the donor or other non‑charitable beneficiary for a term or lifetime. When the term ends, the remaining assets go to one or more charities.</p>
+    <p>A split-interest trust providing an annuity or unitrust payout to non-charitable beneficiaries for a period, with remainder to charity.</p>
 
-    <h3>Where it fits</h3>
-    <ul>
-      <li>Individuals with highly appreciated assets looking to diversify without triggering immediate capital gains tax.</li>
-      <li>Philanthropists seeking a charitable legacy while retaining an income stream.</li>
-      <li>Reducing estate and gift taxes by removing assets from the taxable estate.</li>
-    </ul>
+    <h3>Why someone needs it</h3>
+    <p>Enables diversification of low-basis assets with partial charitable deduction and tax deferral on sales inside the trust.</p>
 
     <h3>Advantages</h3>
     <ul>
-      <li>Provides a partial charitable income tax deduction when funded.</li>
-      <li>Avoids or defers capital gains tax on the sale of contributed assets; the full value can be reinvested.</li>
-      <li>Reduces estate and gift taxes by excluding assets and their appreciation from the estate.</li>
-      <li>Delivers a steady income stream to the donor or another beneficiary for life or a term.</li>
+      <li>Partial income tax deduction at funding</li><li>Tax deferral within trust until distributions</li><li>Income to donor/beneficiaries; remainder to charity</li>
     </ul>
 
-    <h3>Disadvantages / Risks</h3>
+    <h3>Disadvantages & Risks</h3>
     <ul>
-      <li>Irrevocable—the donor forfeits control over the assets once transferred to the CRT.</li>
-      <li>Complex to establish and administer; annual valuation and tax filings required.</li>
-      <li>Income payments depend on investment performance; the remainder passing to charity may be less than anticipated if returns are poor.</li>
+      <li>Irrevocable; remainder must go to charity</li><li>Complex tiered income character rules</li><li>5% probability test and payout bounds apply</li>
     </ul>
 
-    <h3>HNW use‑cases</h3>
+    <h3>Impact of having it (or not)</h3>
+    <p>A CRT can monetize concentrated positions tax-efficiently; without it, selling may trigger immediate capital gains.</p>
+
+    <h3>High-net-worth use cases</h3>
     <ul>
-      <li>Converting appreciated stock or real estate into diversified portfolios without paying immediate capital gains tax.</li>
-      <li>Pairing with a wealth‑replacement trust (e.g., ILIT funded with life insurance) to replace the charitable remainder for heirs.</li>
-      <li>Providing lifetime income to the donor while securing a charitable legacy and estate tax benefits.</li>
+      <li>Post-liquidity or pre-sale contribution of appreciated stock</li><li>Income planning for retirement with charitable legacy</li>
     </ul>
+
+    <h3>Estate planning perspective</h3>
+    <p>Coordinate with DAFs and private foundations; ensure proper administration and 1099-R reporting.</p>
+
   </>
 );

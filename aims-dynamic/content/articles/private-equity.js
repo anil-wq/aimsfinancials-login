@@ -6,36 +6,33 @@ export const meta = {
 
 export const content = (
   <>
+    <h2>Private Equity / Venture Capital</h2>
     <h3>What it is</h3>
-    <p>Private equity (PE) and venture capital (VC) invest in non‑public companies. PE firms typically buy mature businesses and work to improve operations before exiting via sale or IPO. VC firms invest in early‑stage companies with high growth potential. Investments are made through funds with long lock‑up periods.</p>
+    <p>Illiquid investment strategies allocating to private companies or funds aiming for outsized returns through operational improvements and exits.</p>
 
-    <h3>Where it fits</h3>
-    <ul>
-      <li>Diversifying a portfolio beyond public markets and targeting higher return potential.</li>
-      <li>Investors with sufficient net worth and liquidity who can commit capital for 7–10+ years.</li>
-      <li>Accessing opportunities in innovation, technology, healthcare and other growth sectors.</li>
-    </ul>
+    <h3>Why someone needs it</h3>
+    <p>Used to pursue higher returns and diversification beyond public markets.</p>
 
     <h3>Advantages</h3>
     <ul>
-      <li>Potential for superior returns relative to public equities, especially with top‑quartile managers.</li>
-      <li>Active ownership can create operational improvements and strategic value.</li>
-      <li>Diversification benefits due to low correlation with public markets and ability to access niche opportunities.</li>
+      <li>Potential for high returns and alpha</li><li>Access to specialized managers and strategies</li><li>Long-term alignment with company growth</li>
     </ul>
 
-    <h3>Disadvantages / Risks</h3>
+    <h3>Disadvantages & Risks</h3>
     <ul>
-      <li>Illiquidity—capital is committed for long periods and cannot be easily redeemed.</li>
-      <li>High minimum investments and significant management and performance fees.</li>
-      <li>Returns depend heavily on manager selection and market cycles; losses can be total if companies fail.</li>
-      <li>Valuations are less transparent and rely on infrequent appraisals; reported returns may lag actual performance.</li>
+      <li>Illiquidity and capital call complexity</li><li>J-curve and long time horizons</li><li>Concentration and manager risk</li>
     </ul>
 
-    <h3>HNW use‑cases</h3>
+    <h3>Impact of having it (or not)</h3>
+    <p>Allocations can boost return potential; without them, portfolios may be less diversified by factor and liquidity exposure.</p>
+
+    <h3>High-net-worth use cases</h3>
     <ul>
-      <li>Allocating a portion of alternative investments to PE/VC funds or co‑investments to enhance returns.</li>
-      <li>Diversifying across vintages, strategies (buyout, growth, venture) and geographies to manage risk.</li>
-      <li>Utilising estate planning strategies, such as gifts or sales of limited partnership interests, to transfer appreciation to heirs.</li>
+      <li>HNW families using PE/VC funds, co-investments, or evergreen structures</li><li>Tax-aware allocation alongside QSBS or opportunity zones</li>
     </ul>
+
+    <h3>Estate planning perspective</h3>
+    <p>Estate freeze techniques (IDGT/GRAT) pair well with private interests; carry and GP interests need bespoke planning.</p>
+
   </>
 );

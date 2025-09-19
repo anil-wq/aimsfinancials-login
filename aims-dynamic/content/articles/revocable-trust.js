@@ -1,38 +1,65 @@
 export const meta = {
   title: "Revocable Living Trust",
   slug: "revocable-trust",
-  group: "Estate Planning — Advanced"
+  group: "Trusts (Core)"
 };
 
 export const content = (
   <>
-    <h2>Revocable Living Trust</h2>
     <h3>What it is</h3>
-    <p>A revocable trust allows the grantor to control assets during life and appoint a successor trustee for incapacity and after death.</p>
-
-    <h3>Why someone needs it</h3>
-    <p>It provides flexibility and control while avoiding probate for properly titled assets.</p>
+    <p>
+      A revocable living trust is a legal entity you create during your lifetime to
+      hold and manage your assets. You retain control and can amend or revoke it
+      at any time. Upon death, the trust dictates how assets are distributed.
+    </p>
 
     <h3>Advantages</h3>
     <ul>
-      <li>Flexible and amendable</li><li>Avoids probate (when funded)</li><li>Can include incapacity planning</li>
+      <li> Avoids probate, allowing assets to pass quickly and privately to heirs.</li>
+      <li> Maintains privacy because trust documents are not part of the public probate record.</li>
+      <li>
+        Provides continuity of asset management if you become incapacitated by
+        appointing a successor trustee.
+      </li>
+      <li>
+        Can help separate premarital or out‑of‑state property from community
+        assets.
+      </li>
     </ul>
 
-    <h3>Disadvantages & Risks</h3>
+    <h3>Disadvantages / Risks</h3>
     <ul>
-      <li>No tax sheltering while revocable</li><li>May not protect from creditors</li><li>Requires administration</li>
+      <li>
+        Requires time and expense to set up and to retitle all assets into the
+        trust.
+      </li>
+      <li>
+        Does not provide tax benefits; income and assets remain part of your
+        taxable estate.
+      </li>
+      <li>
+        Offers little protection from creditors because you retain control.
+      </li>
+      <li>
+        Must be maintained; failure to fund or update the trust can result in
+        probate.
+      </li>
     </ul>
 
-    <h3>Impact of having it (or not)</h3>
-    <p>Revocable trusts improve privacy and continuity; omitting them can leave a client's estate subject to public probate proceedings.</p>
-
-    <h3>High-net-worth use cases</h3>
+    <h3>HNW notes</h3>
     <ul>
-      <li>Used by HNW families for successor trustee arrangements and continuity across generations</li>
+      <li>
+        Useful for families owning real property in multiple states or with complex
+        distribution plans.
+      </li>
+      <li>
+        Often paired with pour‑over wills and durable powers of attorney to
+        complete an estate plan.
+      </li>
+      <li>
+        Provides privacy but should be complemented by irrevocable trusts for tax
+        and asset protection goals.
+      </li>
     </ul>
-
-    <h3>Estate planning perspective</h3>
-    <p>Often integrated with ILITs and other trusts for tax and creditor planning.</p>
-
   </>
 );

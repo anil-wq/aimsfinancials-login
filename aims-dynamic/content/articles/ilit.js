@@ -1,40 +1,38 @@
 export const meta = {
   title: "Irrevocable Life Insurance Trust (ILIT)",
   slug: "ilit",
-  group: "Trusts (Advanced / Estate)"
+  group: "Estate Planning — Advanced"
 };
 
 export const content = (
   <>
+    <h2>Irrevocable Life Insurance Trust (ILIT)</h2>
     <h3>What it is</h3>
-    <p>An ILIT is an irrevocable trust that owns and controls life insurance policies. By removing ownership from the insured’s estate, the death benefit avoids estate tax and can be managed by a trustee for the beneficiaries’ benefit.</p>
+    <p>A trust designed to own life insurance so that death benefits are excluded from the insured’s taxable estate.</p>
 
-    <h3>Where it fits</h3>
-    <ul>
-      <li>Estate tax planning where large insurance proceeds would otherwise push an estate above exemption limits.</li>
-      <li>Structured distributions to heirs to prevent mismanagement or creditor issues.</li>
-      <li>Asset protection and divorce shielding when the trust is properly drafted and funded.</li>
-    </ul>
+    <h3>Why someone needs it</h3>
+    <p>Provides estate liquidity for taxes and expenses without increasing estate size; separates ownership from the insured.</p>
 
     <h3>Advantages</h3>
     <ul>
-      <li>Removes life insurance proceeds from the taxable estate, potentially saving significant estate taxes.</li>
-      <li>Trustee controls premiums, Crummey notices and distribution terms to protect beneficiaries.</li>
-      <li>Can protect death benefit from creditors and divorcing spouses (jurisdiction dependent).</li>
+      <li>Removes policy proceeds from taxable estate</li><li>Provides liquidity timed to death</li><li>Can control distributions and beneficiaries</li>
     </ul>
 
-    <h3>Disadvantages / Risks</h3>
+    <h3>Disadvantages & Risks</h3>
     <ul>
-      <li>Irrevocable—policy ownership and terms cannot be changed once transferred; mistakes cannot be undone.</li>
-      <li>Requires diligent administration, including delivery of Crummey notices and timely premium payments.</li>
-      <li>Premium gifts use annual gift tax exclusion or lifetime exemption; improper funding risks inclusion in estate.</li>
+      <li>Loss of control over the policy once transferred</li><li>Crummey powers and admin to qualify gifts may be required</li><li>Premium funding logistics (split gifts)</li>
     </ul>
 
-    <h3>HNW use‑cases</h3>
+    <h3>Impact of having it (or not)</h3>
+    <p>With an ILIT, death benefits can pass estate- and GST-efficiently. Without it, large policies may swell the taxable estate.</p>
+
+    <h3>High-net-worth use cases</h3>
     <ul>
-      <li>Combined with whole life, IUL, VUL or PPLI policies to provide estate liquidity and shelter death benefits.</li>
-      <li>Used with premium financing or split‑dollar arrangements to leverage outside collateral while keeping the policy proceeds outside the estate.</li>
-      <li>Can be structured as a dynasty trust to provide multigenerational benefits without estate tax inclusion.</li>
+      <li>HNW families funding large permanent policies to create estate liquidity</li><li>Paired with GRAT/IDGT sales to balance tax and liquidity needs</li>
     </ul>
+
+    <h3>Estate planning perspective</h3>
+    <p>Coordinate trustee, Crummey notices, and GST exemption allocation; consider state premium taxes and trustee location.</p>
+
   </>
 );

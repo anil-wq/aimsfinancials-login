@@ -1,38 +1,39 @@
 export const meta = {
   title: "Term Life Insurance",
   slug: "term-life",
-  group: "Temporary Life Insurance"
+  group: "Insurance"
 };
 
 export const content = (
   <>
-    <h2>Term Life Insurance</h2>
     <h3>What it is</h3>
-    <p>Term life insurance provides pure death benefit protection for a fixed term (e.g., 10, 15, 20, 30 years). It has no cash value and typically the lowest cost per dollar of coverage.</p>
+    <p>Term life provides pure death‑benefit coverage for a specified period, typically 10 to 30 years. It has no cash value and ends when the term expires unless renewed or converted.</p>
 
-    <h3>Why someone needs it</h3>
-    <p>People use term life to replace income, cover mortgages, or provide liquidity in the event of premature death during high-earning years.</p>
+    <h3>Where it fits</h3>
+    <ul>
+      <li>Affordable income replacement during working years or while children are dependent.</li>
+      <li>Used in business contexts for key‑person protection or buy–sell agreements.</li>
+      <li>Acts as a bridge to permanent coverage when liquidity or insurability is expected later in life.</li>
+    </ul>
 
     <h3>Advantages</h3>
     <ul>
-      <li>Low upfront cost</li><li>Simplicity and predictability</li><li>Easily convertible to some permanent products (in some plans)</li>
+      <li>Lowest cost per dollar of death benefit; straightforward to compare across carriers.</li>
+      <li>Convertible options allow upgrading to permanent coverage without new medical underwriting, within a set window.</li>
+      <li>Simple structure—premiums purchase pure protection with no market or interest‑crediting assumptions.</li>
     </ul>
 
-    <h3>Disadvantages & Risks</h3>
+    <h3>Disadvantages / Risks</h3>
     <ul>
-      <li>No cash value accumulation</li><li>Coverage ends at term expiry unless renewed (renewals become very expensive)</li><li>Less useful for permanent estate planning by itself</li>
+      <li>Coverage expires; renewal after the term can be costly or unavailable if health declines.</li>
+      <li>No cash value accumulation or policy‑loan features to provide liquidity.</li>
+      <li>Requires proactive planning to convert or replace the policy before it ends.</li>
     </ul>
 
-    <h3>Impact of having it (or not)</h3>
-    <p>Without term coverage, a family may face immediate liquidity shortfalls to pay debts, mortgages, or provide for surviving dependents.</p>
-
-    <h3>High-net-worth use cases</h3>
+    <h3>HNW notes</h3>
     <ul>
-      <li>Buy term for mortgage/education coverage; pair with permanent policies for estate liquidity</li><li>Executive may use a term layer to cover a key-person or policy buy-sell obligations</li>
+      <li>Often layered with permanent policies to balance cost and estate liquidity needs.</li>
+      <li>Can be owned by an irrevocable life insurance trust (ILIT) to remove the death benefit from the taxable estate.</li>
     </ul>
-
-    <h3>Estate planning perspective</h3>
-    <p>Term is not an estate planning vehicle; it provides liquidity but does not transfer wealth.</p>
-
   </>
 );
