@@ -1,72 +1,38 @@
 export const meta = {
-  title: "Long‑Term Care Planning",
+  title: "Long-Term Care Planning",
   slug: "long-term-care",
   group: "Retirement Planning"
 };
 
 export const content = (
   <>
+    <h2>Long-Term Care Planning</h2>
     <h3>What it is</h3>
-    <p>
-      Long‑term care (LTC) refers to assistance with medical or personal needs
-      for an extended period. It includes help with activities of daily
-      living such as bathing, dressing and eating, whether provided at home,
-      in assisted living or in a nursing facility. Around 70&nbsp;% of people
-      turning 65 will need some form of long‑term care.
-    </p>
+    <p>Planning for extended assistance with ADLs via insurance or self‑funding.</p>
 
-    <h3>Why plan for LTC?</h3>
+    <h3>Why someone needs it</h3>
+    <p>Protects assets and family caregivers from prolonged care costs.</p>
+
+    <h3>Advantages</h3>
     <ul>
-      <li>
-        Health insurance and Medicare generally do not cover custodial long‑term
-        care. Without planning, costs can erode
-        retirement savings.
-      </li>
-      <li>
-        Having coverage allows you to choose where and how you receive care
-        (home vs facility) and helps protect heirs from financial burden
-        .
-      </li>
-      <li>
-        Purchasing LTC insurance in your 50s or early 60s may lock in
-        affordable premiums and ensure insurability.
-      </li>
+      <li>Shifts catastrophic care risk</li><li>Hybrid life/LTC options</li><li>Care navigation and coordination</li>
     </ul>
 
-    <h3>Types of coverage</h3>
+    <h3>Disadvantages & Risks</h3>
     <ul>
-      <li>
-        <strong>Traditional LTC insurance.</strong> Pays a daily or monthly
-        benefit for covered care. Premiums may increase and the policy may be
-        use‑it‑or‑lose‑it if you never need care.
-      </li>
-      <li>
-        <strong>Hybrid or linked policies.</strong> Combine life insurance or
-        annuities with LTC benefits; if care isn’t needed, your heirs receive
-        a death benefit.
-      </li>
-      <li>
-        <strong>Life policies with LTC riders.</strong> Universal life or whole
-        life policies can include riders that accelerate the death benefit to
-        pay for qualified LTC expenses.
-      </li>
+      <li>Premium costs and underwriting hurdles</li><li>Inflation risk; policy design complexity</li><li>Medicaid planning constraints</li>
     </ul>
 
-    <h3>Considerations</h3>
+    <h3>Impact of having it (or not)</h3>
+    <p>Without LTC planning, estates can be eroded rapidly by care expenses.</p>
+
+    <h3>High-net-worth use cases</h3>
     <ul>
-      <li>
-        Evaluate elimination periods, benefit amounts, inflation riders and
-        coverage length when comparing policies.
-      </li>
-      <li>
-        Premiums are based on age and health; lock in coverage before health
-        declines.
-      </li>
-      <li>
-        Self‑funding through dedicated savings or investing is an alternative,
-        but earmarking assets specifically for LTC is important to avoid
-        jeopardizing other goals.
-      </li>
+      <li>Hybrid policies for HNW; asset carve‑outs earmarked for care</li><li>Use trusts to coordinate payments and eligibility</li>
     </ul>
+
+    <h3>Estate planning perspective</h3>
+    <p>Align with POA/HCPOA; document care preferences for family clarity.</p>
+
   </>
 );

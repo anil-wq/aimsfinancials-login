@@ -8,31 +8,31 @@ export const content = (
   <>
     <h2>Lifetime Income Annuities (Private Pension)</h2>
     <h3>What it is</h3>
-    <p>Lifetime income annuities convert a lump sum into guaranteed periodic payments for life, similar to a private pension.</p>
+    <p>Convert a lump sum to guaranteed periodic payments for life, hedging longevity risk.</p>
 
     <h3>Why someone needs it</h3>
-    <p>They hedge longevity risk by providing steady income regardless of market performance.</p>
+    <p>Creates a stable income floor to pair with portfolio withdrawals.</p>
 
     <h3>Advantages</h3>
     <ul>
-      <li>Guaranteed income for life</li><li>Simplicity and predictability</li><li>Various optional riders (inflation, joint life)</li>
+      <li>Guaranteed lifetime income</li><li>Predictable cash flow</li><li>Optional riders for inflation/joint life</li>
     </ul>
 
     <h3>Disadvantages & Risks</h3>
     <ul>
-      <li>Irrevocable once annuitized</li><li>Potentially poor legacy value if the annuitant dies early</li><li>Limited liquidity</li>
+      <li>Irrevocability and limited liquidity</li><li>Lower legacy value if death occurs early</li><li>Insurer credit risk (mitigated via state guaranty limits)</li>
     </ul>
 
     <h3>Impact of having it (or not)</h3>
-    <p>Lifetime annuities create a durable income floor; not having them means relying more on portfolio withdrawals which can be volatile.</p>
+    <p>Including annuities can stabilize plans; without them, sequence‑of‑returns risk increases.</p>
 
     <h3>High-net-worth use cases</h3>
     <ul>
-      <li>HNW clients allocate a portion of their portfolio to annuities to secure essential spending</li><li>Corporate pension buyouts or personal pension solutions</li>
+      <li>Build a pension floor for essential expenses</li><li>SPIA/DIA ladders aligned to retirement ages</li>
     </ul>
 
     <h3>Estate planning perspective</h3>
-    <p>Annuities often are excluded from probate and transfer by beneficiary designation in some structures; consider tax and legacy trade-offs.</p>
+    <p>Coordinate beneficiary options with estate goals; evaluate tax treatment (exclusion ratio).</p>
 
   </>
 );

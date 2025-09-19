@@ -1,45 +1,38 @@
 export const meta = {
-  title: "Social Security &amp; Solvency",
+  title: "Social Security & Solvency",
   slug: "social-security",
   group: "Retirement Planning"
 };
 
 export const content = (
   <>
+    <h2>Social Security & Solvency</h2>
     <h3>What it is</h3>
-    <p>
-      Social Security is a federal program providing retirement, disability and
-      survivor benefits funded primarily through payroll taxes. Benefits are
-      calculated based on your earnings history and the age at which you claim.
-    </p>
+    <p>Federal program providing retirement, disability, and survivor benefits financed by payroll taxes.</p>
 
-    <h3>Solvency &amp; risks</h3>
-    <p>
-      The program is not "going bankrupt," but the combined Old‑Age and
-      Survivors Insurance (OASI) and Disability Insurance (DI) trust funds are
-      projected to be depleted in 2034. At that point,
-      ongoing payroll taxes would fund about 81&nbsp;% of scheduled benefits
-     . This means benefits could be reduced if
-      Congress does not enact reforms. Claims that the system will pay
-      nothing are misleading..
-    </p>
+    <h3>Why someone needs it</h3>
+    <p>Forms the inflation‑linked base of many retirement income plans.</p>
 
-    <h3>Planning considerations</h3>
+    <h3>Advantages</h3>
     <ul>
-      <li>
-        Delaying benefits increases your monthly payment; evaluate claiming
-        strategies alongside other retirement income sources.
-      </li>
-      <li>
-        Because benefits may be partially taxable and subject to potential
-        future reductions, high‑net‑worth individuals should view Social
-        Security as one pillar of retirement income, not the sole source.
-      </li>
-      <li>
-        Continue monitoring legislative changes and adjust your plan
-        accordingly; bridging strategies (e.g., annuities, investments)
-        may mitigate reduction risk.
-      </li>
+      <li>Inflation‑adjusted benefits</li><li>Spousal/survivor options</li><li>Longevity hedge</li>
     </ul>
+
+    <h3>Disadvantages & Risks</h3>
+    <ul>
+      <li>Potential solvency adjustments over time</li><li>Taxation of benefits for higher incomes</li><li>Not sufficient as sole income source</li>
+    </ul>
+
+    <h3>Impact of having it (or not)</h3>
+    <p>Optimized claiming improves lifetime value; poor timing can reduce benefits significantly.</p>
+
+    <h3>High-net-worth use cases</h3>
+    <ul>
+      <li>Coordinate claiming with portfolio withdrawals and annuities</li><li>High earners manage provisional income to limit taxation</li>
+    </ul>
+
+    <h3>Estate planning perspective</h3>
+    <p>Beneficiary rules apply outside probate; integrate with survivor needs.</p>
+
   </>
 );

@@ -1,29 +1,19 @@
+/* eslint-disable @next/next/no-img-element */
 import Head from 'next/head';
 import Link from 'next/link';
 
-/**
- * Blogs page
- *
- * Displays a section highlighting Anil Kumar's most viewed LinkedIn posts.
- * Since LinkedIn does not provide a free embeddable feed, this page embeds
- * the public profile activity page via an iframe. Users can scroll the feed
- * directly or click through to LinkedIn. The navigation mirrors the rest of
- * the site.
- */
 export default function Blogs() {
+  const posts = [
+    { title: "Multiple Taxation: Earn → Tax → Invest → Sell → Tax → Repeat", date: "Sep 2025", summary: "Why dollars can be taxed multiple times—and strategies to minimize it.", href: "https://www.linkedin.com/in/anilaimsfin/" },
+    { title: "RSUs: The Hidden Tax Drag Most Execs Miss", date: "Sep 2025", summary: "Framework for managing capital‑gains drag on concentrated stock.", href: "https://www.linkedin.com/in/anilaimsfin/" },
+    { title: "Estate Tax Sunset: Why Planning Early Matters", date: "Sep 2025", summary: "What the 2026 sunset could mean and practical moves to prepare.", href: "https://www.linkedin.com/in/anilaimsfin/" }
+  ];
   return (
     <div>
-      <Head>
-        <title>Blogs – AIMS Financials</title>
-      </Head>
-      {/* Navbar */}
+      <Head><title>Blogs – AIMS Financials</title></Head>
       <nav className="navbar">
         <div className="nav-container">
-          <div className="logo">
-            <Link href="/">
-              <img src="/logo.png" alt="AIMS Financials logo" />
-            </Link>
-          </div>
+          <div className="logo"><Link href="/"><img src="/logo.png" alt="AIMS Financials logo" /></Link></div>
           <ul className="nav-links">
             <li><Link href="/">Home</Link></li>
             <li><Link href="/education">Education</Link></li>
@@ -31,27 +21,22 @@ export default function Blogs() {
           </ul>
         </div>
       </nav>
-      <div style={{ paddingTop: '80px', paddingBottom: '2rem' }}>
+      <section style={{ paddingTop: '90px', paddingBottom: '2rem' }}>
         <div className="container">
-          <h2 style={{ color: 'var(--secondary-color)', textAlign: 'center', marginBottom: '1rem' }}>Insights &amp; Blogs</h2>
-          <p style={{ textAlign: 'center', marginBottom: '2rem' }}>
-            Explore my most popular posts and thought leadership shared on LinkedIn.
-            These updates cover tax strategies, wealth building and personal finance topics.
-          </p>
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
-            {/* Embed the LinkedIn profile activity feed */}
-            <iframe
-              src="https://www.linkedin.com/embed/feed/update/urn:li:share:"
-              title="LinkedIn Feed"
-              style={{ width: '100%', maxWidth: '800px', height: '600px', border: 'none' }}
-              allowFullScreen
-            ></iframe>
+          <h2 style={{ textAlign: 'center', color: 'var(--secondary-color)' }}>Latest Insights</h2>
+          <p style={{ textAlign: 'center', marginBottom: '2rem' }}>Curated posts migrated from LinkedIn. Tap through for the full discussion.</p>
+          <div className="service-cards">
+            {posts.map((p, i) => (
+              <a key={i} className="service-card" href={p.href} target="_blank" rel="noopener noreferrer">
+                <ion-icon name="newspaper-outline"></ion-icon>
+                <h3>{p.title}</h3>
+                <p style={{ marginTop: '0.25rem', fontSize: '0.9rem', color: '#6b7280' }}>{p.date}</p>
+                <p>{p.summary}</p>
+              </a>
+            ))}
           </div>
-          <p style={{ textAlign: 'center', marginTop: '1rem' }}>
-            Unable to view the feed? <a href="https://www.linkedin.com/in/anilaimsfin/" target="_blank" rel="noopener noreferrer">Visit my LinkedIn profile</a> directly.
-          </p>
         </div>
-      </div>
+      </section>
     </div>
   );
 }

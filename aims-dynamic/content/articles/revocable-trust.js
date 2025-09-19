@@ -1,65 +1,38 @@
 export const meta = {
   title: "Revocable Living Trust",
   slug: "revocable-trust",
-  group: "Trusts (Core)"
+  group: "Estate Planning — Advanced"
 };
 
 export const content = (
   <>
+    <h2>Revocable Living Trust</h2>
     <h3>What it is</h3>
-    <p>
-      A revocable living trust is a legal entity you create during your lifetime to
-      hold and manage your assets. You retain control and can amend or revoke it
-      at any time. Upon death, the trust dictates how assets are distributed.
-    </p>
+    <p>Grants ongoing control and amendability; assets avoid probate when titled to the trust.</p>
+
+    <h3>Why someone needs it</h3>
+    <p>Improves privacy/continuity and allows structured distributions.</p>
 
     <h3>Advantages</h3>
     <ul>
-      <li> Avoids probate, allowing assets to pass quickly and privately to heirs.</li>
-      <li> Maintains privacy because trust documents are not part of the public probate record.</li>
-      <li>
-        Provides continuity of asset management if you become incapacitated by
-        appointing a successor trustee.
-      </li>
-      <li>
-        Can help separate premarital or out‑of‑state property from community
-        assets.
-      </li>
+      <li>Amendable/flexible</li><li>Avoids probate (when funded)</li><li>Supports incapacity planning</li>
     </ul>
 
-    <h3>Disadvantages / Risks</h3>
+    <h3>Disadvantages & Risks</h3>
     <ul>
-      <li>
-        Requires time and expense to set up and to retitle all assets into the
-        trust.
-      </li>
-      <li>
-        Does not provide tax benefits; income and assets remain part of your
-        taxable estate.
-      </li>
-      <li>
-        Offers little protection from creditors because you retain control.
-      </li>
-      <li>
-        Must be maintained; failure to fund or update the trust can result in
-        probate.
-      </li>
+      <li>No estate tax/creditor protection while revocable</li><li>Requires administration</li><li>Can create false sense of completion if unfunded</li>
     </ul>
 
-    <h3>HNW notes</h3>
+    <h3>Impact of having it (or not)</h3>
+    <p>Omitting an RLT increases probate exposure and public filings.</p>
+
+    <h3>High-net-worth use cases</h3>
     <ul>
-      <li>
-        Useful for families owning real property in multiple states or with complex
-        distribution plans.
-      </li>
-      <li>
-        Often paired with pour‑over wills and durable powers of attorney to
-        complete an estate plan.
-      </li>
-      <li>
-        Provides privacy but should be complemented by irrevocable trusts for tax
-        and asset protection goals.
-      </li>
+      <li>HNW families coordinating multiple entities and trusteeships</li>
     </ul>
+
+    <h3>Estate planning perspective</h3>
+    <p>Often used alongside ILITs and LLC/LP structures for comprehensive plans.</p>
+
   </>
 );

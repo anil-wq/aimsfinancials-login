@@ -1,38 +1,40 @@
 export const meta = {
   title: "Domestic Asset Protection Trust (DAPT)",
   slug: "dapt",
-  group: "Estate Planning — Advanced"
+  group: "Trusts (Advanced / Estate)"
 };
 
 export const content = (
   <>
-    <h2>Domestic Asset Protection Trust (DAPT)</h2>
     <h3>What it is</h3>
-    <p>A self-settled spendthrift trust available in certain U.S. states offering some creditor protection for contributed assets.</p>
+    <p>A DAPT is a self‑settled irrevocable trust established in a jurisdiction that allows the grantor to remain a discretionary beneficiary while shielding trust assets from future creditors. Only certain U.S. states authorize these trusts.</p>
 
-    <h3>Why someone needs it</h3>
-    <p>Used to protect assets from future unknown creditors while maintaining some beneficial access subject to state law limits.</p>
+    <h3>Where it fits</h3>
+    <ul>
+      <li>Asset protection planning for professionals, business owners and others exposed to potential lawsuits.</li>
+      <li>Safeguarding assets from future creditors while maintaining access (at the trustee’s discretion).</li>
+      <li>Protecting assets in the event of divorce when properly established before marriage.</li>
+    </ul>
 
     <h3>Advantages</h3>
     <ul>
-      <li>Potential creditor protection depending on jurisdiction</li><li>Retains some access via discretionary distributions</li><li>Private wealth protection tool</li>
+      <li>Deters litigation and may encourage settlements due to increased difficulty of reaching trust assets.</li>
+      <li>Offers a layer of protection against creditors’ claims and judgments, depending on jurisdiction.</li>
+      <li>Allows the grantor to add or remove assets and benefit from trust distributions at the trustee’s discretion.</li>
     </ul>
 
-    <h3>Disadvantages & Risks</h3>
+    <h3>Disadvantages / Risks</h3>
     <ul>
-      <li>Not recognized in all states; full faith and credit concerns</li><li>Fraudulent transfer rules apply; existing claims not protected</li><li>Bankruptcy look-back periods</li>
+      <li>Laws vary significantly by state; some courts or federal bankruptcy law may ignore the protection.</li>
+      <li>No guarantee of privacy—trustees may be compelled by subpoena to provide information.</li>
+      <li>High legal and administrative costs; may not protect assets from existing creditors or fraud claims.</li>
     </ul>
 
-    <h3>Impact of having it (or not)</h3>
-    <p>DAPTs may offer a protective layer for future risks; without them, exposed assets remain reachable by creditors.</p>
-
-    <h3>High-net-worth use cases</h3>
+    <h3>HNW use‑cases</h3>
     <ul>
-      <li>HNW individuals in DAPT-friendly states using trust situs planning</li><li>Pair with LP/LLC entities for layered protection</li>
+      <li>Physicians, CEOs and entrepreneurs seeking to isolate personal assets from professional liability.</li>
+      <li>Often used in conjunction with LLCs or limited partnerships to enhance protection.</li>
+      <li>Should be established well in advance of any claims to avoid fraudulent‑transfer issues.</li>
     </ul>
-
-    <h3>Estate planning perspective</h3>
-    <p>Choice of jurisdiction, funding timing, and trustee independence are critical to sustainability.</p>
-
   </>
 );

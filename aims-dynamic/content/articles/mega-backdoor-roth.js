@@ -8,31 +8,31 @@ export const content = (
   <>
     <h2>Mega Backdoor Roth (In-Plan or IRA)</h2>
     <h3>What it is</h3>
-    <p>The Mega Backdoor Roth uses after-tax contributions to a 401(k) plus in-plan conversion or in-service rollover to a Roth IRA to achieve large Roth funding.</p>
+    <p>After-tax 401(k) contributions plus in-plan Roth conversion or in‑service rollover to Roth IRA to massively expand Roth funding.</p>
 
     <h3>Why someone needs it</h3>
-    <p>It allows high savers to move substantial amounts to Roth treatment beyond standard deferral limits.</p>
+    <p>Enables large Roth balances for HNW savers where income limits block direct Roth contributions.</p>
 
     <h3>Advantages</h3>
     <ul>
-      <li>Can convert large sums to Roth</li><li>Provides tax-free growth on converted amounts</li><li>Tax-efficient for high-income savers</li>
+      <li>Very high Roth funding potential</li><li>Tax-free growth once converted</li><li>Automatable with plan sweep features</li>
     </ul>
 
     <h3>Disadvantages & Risks</h3>
     <ul>
-      <li>Requires plan support for after-tax contributions and conversions</li><li>Administrative complexity and potential tax traps</li><li>Subject to plan-specific rules and 415(c) limits</li>
+      <li>Plan must allow it; admin complexity</li><li>415(c) cap and employer contributions reduce room</li><li>Pro‑rata/timing pitfalls</li>
     </ul>
 
     <h3>Impact of having it (or not)</h3>
-    <p>For eligible participants, this accelerates Roth accumulation. If unavailable, the client misses a major tax-efficient funding path.</p>
+    <p>If available, skipping MBR leaves significant tax‑free growth on the table.</p>
 
     <h3>High-net-worth use cases</h3>
     <ul>
-      <li>Tech executives maximizing retirement tax-free buckets via corporate 401(k) features</li><li>Used alongside other estate and tax strategies</li>
+      <li>Tech execs with rich plans funneling after‑tax to Roth monthly</li><li>Pair with ESPP/RSU tax planning for cash flow</li>
     </ul>
 
     <h3>Estate planning perspective</h3>
-    <p>Careful coordination with plan administrators, payroll and tax advisors is required to avoid unintended tax consequences.</p>
+    <p>Coordinate conversions with tax years; verify plan docs for in‑service rules.</p>
 
   </>
 );

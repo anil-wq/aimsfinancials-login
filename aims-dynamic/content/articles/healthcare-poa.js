@@ -8,31 +8,31 @@ export const content = (
   <>
     <h2>Healthcare Power of Attorney</h2>
     <h3>What it is</h3>
-    <p>A healthcare POA (medical proxy) designates a person to make medical decisions if you are unable to express preferences.</p>
+    <p>Designates a medical decision‑maker if you’re unable to consent; often paired with a living will.</p>
 
     <h3>Why someone needs it</h3>
-    <p>It ensures your healthcare preferences are followed and relieves family members from making ad-hoc decisions.</p>
+    <p>Ensures care aligns with your preferences and reduces family stress in crises.</p>
 
     <h3>Advantages</h3>
     <ul>
-      <li>Ensures decisions align with your wishes</li><li>Simplifies interactions with care providers</li><li>Can be paired with advance directives/living wills</li>
+      <li>Clear authority for providers</li><li>Can include HIPAA releases</li><li>Works with advance directives</li>
     </ul>
 
     <h3>Disadvantages & Risks</h3>
     <ul>
-      <li>Emotional burden on agent if not prepared</li><li>State-specific forms and requirements</li>
+      <li>Emotional burden on agent</li><li>State‑specific forms required</li><li>Needs periodic refresh</li>
     </ul>
 
     <h3>Impact of having it (or not)</h3>
-    <p>Without a healthcare POA, families may face uncertainty and legal delays in making critical medical decisions.</p>
+    <p>Without HCPOA, treatment may be delayed; family conflicts can arise.</p>
 
     <h3>High-net-worth use cases</h3>
     <ul>
-      <li>HNW families should pair healthcare POA with living wills and estate plans to ensure holistic incapacity planning</li>
+      <li>HNW families formalize medical directives with counsel</li><li>Coordinate with private care concierge services</li>
     </ul>
 
     <h3>Estate planning perspective</h3>
-    <p>Healthcare POA is a core non-tax document that preserves autonomy and reduces conflict during incapacity.</p>
+    <p>Integrate with overall incapacity plan and document storage (digital + physical).</p>
 
   </>
 );

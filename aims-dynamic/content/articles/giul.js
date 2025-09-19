@@ -1,38 +1,38 @@
 export const meta = {
-  title: "Guaranteed Indexed Universal Life (GIUL)",
+  title: "Guaranteed Indexed UL (GIUL)",
   slug: "giul",
   group: "Cash Value Life Insurance"
 };
 
 export const content = (
   <>
-    <h2>Guaranteed Indexed Universal Life (GIUL)</h2>
+    <h2>Guaranteed Indexed UL (GIUL)</h2>
     <h3>What it is</h3>
-    <p>GIUL is a UL variant that emphasizes stronger guaranteed interest-crediting constructs and often simpler index mechanisms to prioritize long-term guarantee of the death benefit.</p>
+    <p>Index crediting with stronger secondary guarantees emphasizing long-term protection.</p>
 
     <h3>Why someone needs it</h3>
-    <p>GIUL is for clients who want index-style crediting but need more explicit long-run guarantees on the policy’s core functions.</p>
+    <p>For clients prioritizing guaranteed protection with modest index participation.</p>
 
     <h3>Advantages</h3>
     <ul>
-      <li>Long-duration guarantees when illustrated correctly</li><li>Simpler crediting models reduce structural surprises</li><li>Good for conservative growth with protection</li>
+      <li>Long-duration guarantees</li><li>Simpler allocation menus</li><li>Downside floors</li>
     </ul>
 
     <h3>Disadvantages & Risks</h3>
     <ul>
-      <li>More constrained upside due to conservative caps/spreads</li><li>Guaranteed designs may restrict later changes</li><li>May require disciplined funding to maintain guarantees</li>
+      <li>More limited upside vs IUL/VUL</li><li>Design can constrain later changes</li><li>Requires disciplined funding</li>
     </ul>
 
     <h3>Impact of having it (or not)</h3>
-    <p>GIUL provides a middle ground for conservative clients seeking growth with safety. Without GIUL, achieving similar guarantees may require higher-cost strategies.</p>
+    <p>GIUL balances guarantee needs and some growth; without it, alternatives may be costlier for similar guarantees.</p>
 
     <h3>High-net-worth use cases</h3>
     <ul>
-      <li>Clients who need strong death benefit guarantees with modest indexed participation</li><li>Estate planners wanting predictable outcomes tied to index credits</li>
+      <li>Estate liquidity with predictable guarantees</li><li>Bridge for conservative investors wanting some index link</li>
     </ul>
 
     <h3>Estate planning perspective</h3>
-    <p>GIUL works well in ILIT and other trust frameworks when guarantees and predictability are high priorities.</p>
+    <p>Pairs well with ILITs where protection/guarantees take priority.</p>
 
   </>
 );

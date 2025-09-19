@@ -6,53 +6,33 @@ export const meta = {
 
 export const content = (
   <>
+    <h2>Roth IRA</h2>
     <h3>What it is</h3>
-    <p>
-      A Roth IRA is an individual retirement account funded with after‑tax
-      dollars. Contributions are not deductible, but qualified withdrawals in
-      retirement are completely tax free. Because you’ve already paid taxes on
-      contributions, growth and earnings can be withdrawn tax free if you meet
-      certain rules.
-    </p>
+    <p>After-tax contributions; qualified withdrawals are tax-free; no RMDs for original owner under current rules.</p>
 
-    <h3>Key features</h3>
+    <h3>Why someone needs it</h3>
+    <p>Provides tax-free income later and diversification across tax buckets.</p>
+
+    <h3>Advantages</h3>
     <ul>
-      <li>
-        <strong>Contribution limits.</strong> You can contribute up to $7,000
-        annually ($8,000 if 50 or older) in 2024.
-        Contributions must come from earned income and are subject to modified
-        adjusted gross income (MAGI) phase‑outs.
-      </li>
-      <li>
-        <strong>Tax‑free growth &amp; distributions.</strong> Investment
-        earnings grow tax free, and qualified withdrawals (after age 59½ and
-        the account being at least five years old) are completely tax free.
-      </li>
-      <li>
-        <strong>No required minimum distributions.</strong> Unlike a
-        traditional IRA, original account owners are not required to take
-        distributions during their lifetime.
-      </li>
-      <li>
-        <strong>Flexible withdrawals.</strong> Contributions (but not
-        earnings) can be withdrawn at any time without tax or penalty,
-        providing emergency liquidity.
-      </li>
+      <li>Tax-free qualified withdrawals</li><li>No owner RMDs</li><li>Flexible access to contributions</li>
     </ul>
 
-    <h3>Considerations</h3>
+    <h3>Disadvantages & Risks</h3>
     <ul>
-      <li>
-        Income limits restrict who can contribute directly; high earners
-        may use a "backdoor" Roth conversion.
-      </li>
-      <li>
-        After‑tax contributions mean you forgo an upfront deduction.
-      </li>
-      <li>
-        Conversions from pre‑tax accounts create current income tax
-        liability.
-      </li>
+      <li>Income limits restrict direct contributions</li><li>No upfront deduction</li>
     </ul>
+
+    <h3>Impact of having it (or not)</h3>
+    <p>Having Roth can reduce future tax rates; without it, distributions may be fully taxable.</p>
+
+    <h3>High-net-worth use cases</h3>
+    <ul>
+      <li>Backdoor Roth for high earners; bracket management pre‑retirement</li><li>Legacy planning with tax-free income to heirs (subject to 10-year rule)</li>
+    </ul>
+
+    <h3>Estate planning perspective</h3>
+    <p>Title properly; consider Roth conversions in low‑income years for heirs and estate sizing.</p>
+
   </>
 );

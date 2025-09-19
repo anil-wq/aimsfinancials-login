@@ -8,31 +8,31 @@ export const content = (
   <>
     <h2>Limited Partnership (LP)</h2>
     <h3>What it is</h3>
-    <p>An LP separates control (general partner) from passive investors (limited partners). It is often used to centralize management while transferring economic interests.</p>
+    <p>Separates control (general partner) from economics (limited partners). Common in FLP structures.</p>
 
     <h3>Why someone needs it</h3>
-    <p>LPs (including Family Limited Partnerships) allow control retention while gifting limited partnership interests to heirs for estate planning.</p>
+    <p>Retain control while transferring economic interests for estate planning.</p>
 
     <h3>Advantages</h3>
     <ul>
-      <li>Control retained by GP</li><li>Potential valuation discounts for gift tax planning</li><li>Flexibility in distribution structures</li>
+      <li>Control centralized in GP</li><li>Valuation discount potential</li><li>Flexible distributions</li>
     </ul>
 
     <h3>Disadvantages & Risks</h3>
     <ul>
-      <li>General partner still faces liability unless GP is an entity</li><li>IRS scrutiny on valuation discounts if abused</li><li>Ongoing governance complexity</li>
+      <li>GP liability unless entity used</li><li>IRS scrutiny on discounts</li><li>Governance/admin complexity</li>
     </ul>
 
     <h3>Impact of having it (or not)</h3>
-    <p>LPs can be powerful estate- and succession-planning tools; improper use can invite audits or litigation.</p>
+    <p>LPs enable powerful transfers; without them, transitions may be clumsy and tax‑inefficient.</p>
 
     <h3>High-net-worth use cases</h3>
     <ul>
-      <li>HNW families use FLP/LP to transfer interests to trusts while preserving decision-making in a GP or entity they control</li>
+      <li>Gifting LP interests to trusts with GP held by a controlled entity</li>
     </ul>
 
     <h3>Estate planning perspective</h3>
-    <p>LP structures should be paired with operating agreements, buy-sell terms, and trustee mechanisms to preserve control across generations.</p>
+    <p>Coordinate appraisals, operating agreements, and trustee roles.</p>
 
   </>
 );

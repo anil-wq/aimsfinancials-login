@@ -8,31 +8,31 @@ export const content = (
   <>
     <h2>Revocable Living Trust (Avoiding Probate)</h2>
     <h3>What it is</h3>
-    <p>A revocable living trust is an instrument that holds title to assets during life and provides for successor management without probate.</p>
+    <p>A revocable trust holds title to assets during life and enables successor management without probate.</p>
 
     <h3>Why someone needs it</h3>
-    <p>Used to avoid probate, provide incapacity planning and allow for continuity of asset management.</p>
+    <p>Streamlines transfer, preserves privacy, and provides incapacity management.</p>
 
     <h3>Advantages</h3>
     <ul>
-      <li>Avoids probate for funded assets</li><li>Provides continuity during incapacity</li><li>Privacy compared to probate proceedings</li>
+      <li>Avoids probate for funded assets</li><li>Continuity during incapacity</li><li>Private vs public court records</li>
     </ul>
 
     <h3>Disadvantages & Risks</h3>
     <ul>
-      <li>Requires proper funding of assets into the trust</li><li>Does not shield from creditors or estate taxes while revocable</li><li>Ongoing administration</li>
+      <li>Requires proper funding/retitling</li><li>No creditor/tax protection while revocable</li><li>Ongoing trustee duties</li>
     </ul>
 
     <h3>Impact of having it (or not)</h3>
-    <p>Properly funded trusts avoid probate delays and public filings; failing to fund the trust can negate benefits.</p>
+    <p>Funded RLTs avoid delays and publicity; unfunded trusts fail to deliver benefits.</p>
 
     <h3>High-net-worth use cases</h3>
     <ul>
-      <li>Commonly used by HNW clients to ensure seamless transfer and maintain privacy</li><li>Pairs well with pour-over wills and comprehensive estate plans</li>
+      <li>Families wanting seamless transition and privacy</li><li>Pair with pour‑over will and POAs</li>
     </ul>
 
     <h3>Estate planning perspective</h3>
-    <p>Revocable trusts form the backbone of many estate plans, though irrevocable planning is often necessary for tax strategies.</p>
+    <p>RLTs are the foundation; layer ILIT/IDGT/GRAT for tax/asset protection as needed.</p>
 
   </>
 );

@@ -1,5 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
 import { useState } from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -38,8 +40,8 @@ export default function Home() {
             <li><a href="#process">Process</a></li>
             <li><a href="#philosophy">Philosophy</a></li>
             {/* Education tab links to the open‑access education page */}
-            <li><a href="/education">Education</a></li>
-            <li><a href="/blogs">Blogs</a></li>
+            <li><Link href="/education">Education</Link></li>
+            <li><Link href="/blogs">Blogs</Link></li>
           </ul>
         </div>
       </nav>

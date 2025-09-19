@@ -1,38 +1,40 @@
 export const meta = {
   title: "Grantor Retained Annuity Trust (GRAT)",
   slug: "grat",
-  group: "Estate Planning — Advanced"
+  group: "Trusts (Advanced / Estate)"
 };
 
 export const content = (
   <>
-    <h2>Grantor Retained Annuity Trust (GRAT)</h2>
     <h3>What it is</h3>
-    <p>An irrevocable trust where the grantor transfers assets but retains a fixed annuity for a term; remainder passes to heirs if asset growth exceeds the IRS §7520 rate.</p>
+    <p>A GRAT is an irrevocable trust into which a grantor transfers appreciating assets while retaining the right to receive a fixed annuity payment for a term. At the end of the term, any remaining growth passes to beneficiaries with little or no additional gift tax.</p>
 
-    <h3>Why someone needs it</h3>
-    <p>Efficiently transfers appreciation with minimal gift tax when structured properly (zeroed-out GRATs).</p>
+    <h3>Where it fits</h3>
+    <ul>
+      <li>Shifting future appreciation on volatile or high‑growth assets (e.g., pre‑IPO shares, concentrated stock, private business interests) to heirs at a low transfer tax cost.</li>
+      <li>Leveraging low IRS §7520 rates to “freeze” asset values for estate tax purposes.</li>
+      <li>Pairing with other trusts (e.g., sales to IDGT) to compound estate‑free transfers.</li>
+    </ul>
 
     <h3>Advantages</h3>
     <ul>
-      <li>Shift post-transfer appreciation to heirs</li><li>Low gift tax if annuity equals initial value</li><li>Works well with volatile/high-growth assets</li>
+      <li>Minimal gift tax when structured as a “zeroed‑out” GRAT—only the remainder interest is a taxable gift.</li>
+      <li>Excess appreciation above the IRS hurdle rate passes to beneficiaries free of additional gift or estate tax.</li>
+      <li>Can be rolled or “cascaded” to repeat the strategy with successive two–three‑year GRATs.</li>
     </ul>
 
-    <h3>Disadvantages & Risks</h3>
+    <h3>Disadvantages / Risks</h3>
     <ul>
-      <li>Mortality risk if grantor dies during term (assets revert)</li><li>Requires strict annuity payments</li><li>Future legislative risk on serial short-term GRATs</li>
+      <li>If the grantor dies during the GRAT term, remaining assets revert to the estate and negate tax benefits.</li>
+      <li>Requires accurate asset valuations and careful administration; subject to IRS scrutiny.</li>
+      <li>Not suitable for assets expected to underperform the §7520 rate; the strategy can fail if returns are low.</li>
     </ul>
 
-    <h3>Impact of having it (or not)</h3>
-    <p>Using GRATs can remove significant appreciation from estates; not using them may forgo a relatively low-risk transfer strategy for growth assets.</p>
-
-    <h3>High-net-worth use cases</h3>
+    <h3>HNW use‑cases</h3>
     <ul>
-      <li>Executives with pre-IPO or concentrated stock</li><li>HNW families running rolling 2–3 year GRAT ladders</li>
+      <li>Owners of concentrated stock positions or business interests anticipating liquidity events.</li>
+      <li>Used with volatile assets (e.g., hedge fund GP interests) to exploit the spread between actual growth and the assumed IRS rate.</li>
+      <li>Often implemented in multiple short‑term GRATs to mitigate mortality risk and capture upside.</li>
     </ul>
-
-    <h3>Estate planning perspective</h3>
-    <p>Valuation and timing are critical; pair with sales or swaps to manage basis and cash flows.</p>
-
   </>
 );
