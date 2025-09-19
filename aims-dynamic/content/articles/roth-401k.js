@@ -12,7 +12,7 @@ export const content = (
       traditional 401(k) and a Roth IRA. You contribute after‑tax dollars
       through salary deferrals, and investment earnings grow tax free. In
       retirement qualified withdrawals of contributions and earnings are
-      entirely tax free【82849649260916†L163-L187】.
+      entirely tax free.
     </p>
 
     <h3>Key features</h3>
@@ -29,7 +29,7 @@ export const content = (
       <li>
         <strong>Employer match.</strong> Employer matching contributions go
         into a traditional 401(k) sub‑account and will be taxed when
-        withdrawn【82849649260916†L163-L187】.
+        withdrawn.
       </li>
       <li>
         <strong>Required minimum distributions.</strong> RMDs generally apply

@@ -17,11 +17,11 @@ export const content = (
     <ul>
       <li>
         Estate liquidity: provides funds to pay estate taxes and settlement costs when
-        the second spouse dies, preserving family wealth【17135836090882†L675-L723】.
+        the second spouse dies, preserving family wealth.
       </li>
       <li>
         Special needs or dependent support: ensures care for a child or beneficiary who
-        will require lifelong assistance【17135836090882†L675-L723】.
+        will require lifelong assistance.
       </li>
       <li>
         Business succession or charitable legacies: funds buy‑sell agreements or
@@ -31,10 +31,10 @@ export const content = (
 
     <h3>Advantages</h3>
     <ul>
-      <li>Less expensive than buying two separate permanent policies【17135836090882†L745-L770】.</li>
+      <li>Less expensive than buying two separate permanent policies.</li>
       <li>
         Underwriting on both lives can make it easier to qualify if one spouse has
-        health issues【17135836090882†L675-L723】.
+        health issues.
       </li>
       <li>
         Couples can leverage one policy to address estate and charitable planning
@@ -48,10 +48,10 @@ export const content = (
         Policy does not pay until both insureds have died; the surviving spouse must
         self‑fund expenses until then.
       </li>
-      <li>Permanent coverage can be costly relative to term insurance【17135836090882†L772-L799】.</li>
+      <li>Permanent coverage can be costly relative to term insurance.</li>
       <li>
         Complexities during divorce or remarriage can make policy ownership and
-        beneficiary design challenging【17135836090882†L772-L799】.
+        beneficiary design challenging.
       </li>
     </ul>
 

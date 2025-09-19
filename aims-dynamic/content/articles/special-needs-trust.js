@@ -18,7 +18,7 @@ export const content = (
 
     <h3>Advantages</h3>
     <ul>
-      <li>Assets held in the trust are not counted as resources for Medicaid and SSI eligibility purposes【881872402105417†L177-L184】.</li>
+      <li>Assets held in the trust are not counted as resources for Medicaid and SSI eligibility purposes.</li>
       <li>Trust funds can pay for education, therapies, transportation, personal care attendants and recreation to improve the beneficiary’s quality of life.</li>
       <li>Protects the beneficiary from financial abuse and mismanagement by appointing a reliable trustee.</li>
     </ul>

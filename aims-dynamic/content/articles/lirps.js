@@ -14,7 +14,7 @@ export const content = (
       after‑tax dollars and allow cash value to accumulate tax deferred. Later
       in retirement you can take loans or withdrawals against the cash value
       to generate tax‑advantaged income, while still maintaining a death
-      benefit for heirs【204864869945106†L62-L75】.
+      benefit for heirs.
     </p>
 
     <h3>Key features</h3>
@@ -22,23 +22,23 @@ export const content = (
       <li>
         <strong>Premium flexibility.</strong> Policies such as variable and
         indexed universal life allow flexible premium payments and the ability
-        to direct funds into subaccounts or indexed strategies【204864869945106†L86-L117】.
+        to direct funds into subaccounts or indexed strategies.
       </li>
       <li>
         <strong>Tax‑deferred growth.</strong> Cash value grows without
         current taxation; loans or withdrawals can be structured to be
-        tax free if the policy stays in force【204864869945106†L118-L146】.
+        tax free if the policy stays in force.
       </li>
       <li>
         <strong>Unlimited contributions.</strong> Unlike qualified plans, there
         are no statutory contribution limits, though policies must meet
         insurance guidelines to avoid Modified Endowment Contract (MEC)
-        treatment【204864869945106†L62-L75】.
+        treatment.
       </li>
       <li>
         <strong>Additional benefits.</strong> Policies may include riders for
         long‑term care, chronic illness or other protections, and the death
-        benefit can pass to heirs income tax free【204864869945106†L147-L151】.
+        benefit can pass to heirs income tax free.
       </li>
     </ul>
 
@@ -55,7 +55,7 @@ export const content = (
       <li>
         LIRPs are generally best suited for high earners who have already
         maximized other tax‑advantaged savings and need additional
-        accumulation or estate planning tools【204864869945106†L62-L75】.
+        accumulation or estate planning tools.
       </li>
     </ul>
   </>

@@ -18,7 +18,7 @@ export const content = (
 
     <h3>Advantages</h3>
     <ul>
-      <li>High dividend yields due to the 90% payout requirement【819837458886379†L57-L105】.</li>
+      <li>High dividend yields due to the 90% payout requirement.</li>
       <li>Liquidity: publicly traded REIT shares can be bought or sold like stocks.</li>
       <li>Diversification across property types (e.g., offices, apartments, data centers) and geographic regions.</li>
       <li>Professional property management and access to large‑scale real estate projects.</li>
@@ -26,9 +26,9 @@ export const content = (
 
     <h3>Disadvantages / Risks</h3>
     <ul>
-      <li>Limited reinvestment of earnings restricts growth potential; share price may lag property value appreciation【819837458886379†L57-L105】.</li>
+      <li>Limited reinvestment of earnings restricts growth potential; share price may lag property value appreciation.</li>
       <li>Dividends are generally taxed as ordinary income; tax treatment can be less favorable than qualified dividends.</li>
-      <li>Highly sensitive to interest‑rate changes and economic cycles; property sector downturns can reduce dividends【819837458886379†L57-L105】.</li>
+      <li>Highly sensitive to interest‑rate changes and economic cycles; property sector downturns can reduce dividends.</li>
       <li>Non‑traded REITs may have high fees, limited liquidity and valuation transparency.</li>
     </ul>
 

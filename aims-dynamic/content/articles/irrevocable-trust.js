@@ -20,11 +20,11 @@ export const content = (
     <ul>
       <li>
         Removes assets from your estate, which can reduce estate taxes and
-        shelter appreciation from future transfer tax【820118204843693†L83-L99】.
+        shelter appreciation from future transfer tax.
       </li>
       <li>
         Provides asset protection; because you relinquish control, creditors
-        generally cannot reach the trust corpus【820118204843693†L83-L99】.
+        generally cannot reach the trust corpus.
       </li>
       <li>
         Allows you to set terms for how and when beneficiaries receive assets,
@@ -41,7 +41,7 @@ export const content = (
     <ul>
       <li>
         You generally cannot change the terms or reclaim the assets once the
-        trust is executed, limiting flexibility【820118204843693†L59-L112】.
+        trust is executed, limiting flexibility.
       </li>
       <li>
         Professional trustee fees and ongoing administration may be required

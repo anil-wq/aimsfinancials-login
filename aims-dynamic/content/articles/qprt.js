@@ -18,18 +18,18 @@ export const content = (
 
     <h3>Advantages</h3>
     <ul>
-      <li>Reduces estate taxes by freezing the value of the residence at the time of transfer【191962751544279†L170-L199】.</li>
-      <li>Discounts the property’s value for gift‑tax purposes due to the grantor’s retained interest【191962751544279†L184-L188】.</li>
-      <li>Allows the grantor to continue living in the home during the trust term and even afterwards by paying market rent【191962751544279†L190-L199】.</li>
-      <li>The grantor can serve as trustee and maintain control over the residence during the trust term【191962751544279†L194-L201】.</li>
+      <li>Reduces estate taxes by freezing the value of the residence at the time of transfer.</li>
+      <li>Discounts the property’s value for gift‑tax purposes due to the grantor’s retained interest.</li>
+      <li>Allows the grantor to continue living in the home during the trust term and even afterwards by paying market rent.</li>
+      <li>The grantor can serve as trustee and maintain control over the residence during the trust term.</li>
     </ul>
 
     <h3>Disadvantages / Risks</h3>
     <ul>
-      <li>The trust is irrevocable; terms cannot be changed once established【191962751544279†L208-L213】.</li>
-      <li>If the grantor dies before the trust term ends, the property reverts to the estate and loses tax benefits【191962751544279†L213-L217】.</li>
-      <li>Mortgage payments are treated as additional gifts, and the property cannot be refinanced without jeopardizing the trust【191962751544279†L219-L223】.</li>
-      <li>The grantor remains responsible for property taxes and expenses during the term【191962751544279†L225-L227】.</li>
+      <li>The trust is irrevocable; terms cannot be changed once established.</li>
+      <li>If the grantor dies before the trust term ends, the property reverts to the estate and loses tax benefits.</li>
+      <li>Mortgage payments are treated as additional gifts, and the property cannot be refinanced without jeopardizing the trust.</li>
+      <li>The grantor remains responsible for property taxes and expenses during the term.</li>
     </ul>
 
     <h3>HNW use‑cases</h3>

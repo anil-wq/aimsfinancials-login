@@ -12,24 +12,24 @@ export const content = (
       for an extended period. It includes help with activities of daily
       living such as bathing, dressing and eating, whether provided at home,
       in assisted living or in a nursing facility. Around 70&nbsp;% of people
-      turning 65 will need some form of long‑term care【915557242659997†L404-L459】.
+      turning 65 will need some form of long‑term care.
     </p>
 
     <h3>Why plan for LTC?</h3>
     <ul>
       <li>
         Health insurance and Medicare generally do not cover custodial long‑term
-        care【915557242659997†L471-L478】. Without planning, costs can erode
+        care. Without planning, costs can erode
         retirement savings.
       </li>
       <li>
         Having coverage allows you to choose where and how you receive care
         (home vs facility) and helps protect heirs from financial burden
-        【915557242659997†L404-L459】.
+        .
       </li>
       <li>
         Purchasing LTC insurance in your 50s or early 60s may lock in
-        affordable premiums and ensure insurability【915557242659997†L488-L495】.
+        affordable premiums and ensure insurability.
       </li>
     </ul>
 
@@ -43,12 +43,12 @@ export const content = (
       <li>
         <strong>Hybrid or linked policies.</strong> Combine life insurance or
         annuities with LTC benefits; if care isn’t needed, your heirs receive
-        a death benefit【915557242659997†L498-L527】.
+        a death benefit.
       </li>
       <li>
         <strong>Life policies with LTC riders.</strong> Universal life or whole
         life policies can include riders that accelerate the death benefit to
-        pay for qualified LTC expenses【915557242659997†L488-L495】.
+        pay for qualified LTC expenses.
       </li>
     </ul>
 

@@ -19,19 +19,19 @@ export const content = (
     <ul>
       <li>
         <strong>Contribution limits.</strong> You can contribute up to $7,000
-        annually ($8,000 if 50 or older) in 2024【284940355633267†L363-L399】.
+        annually ($8,000 if 50 or older) in 2024.
         Contributions must come from earned income and are subject to modified
         adjusted gross income (MAGI) phase‑outs.
       </li>
       <li>
         <strong>Tax‑free growth &amp; distributions.</strong> Investment
         earnings grow tax free, and qualified withdrawals (after age 59½ and
-        the account being at least five years old) are completely tax free【284940355633267†L363-L399】.
+        the account being at least five years old) are completely tax free.
       </li>
       <li>
         <strong>No required minimum distributions.</strong> Unlike a
         traditional IRA, original account owners are not required to take
-        distributions during their lifetime【284940355633267†L363-L399】.
+        distributions during their lifetime.
       </li>
       <li>
         <strong>Flexible withdrawals.</strong> Contributions (but not

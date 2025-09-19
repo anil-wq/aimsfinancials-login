@@ -18,13 +18,13 @@ export const content = (
     <ul>
       <li>
         <strong>Contribution limits.</strong> For 2024 the maximum contribution
-        is $7,000 ($8,000 if age 50 or older)【284940355633267†L304-L347】. You
+        is $7,000 ($8,000 if age 50 or older). You
         must have earned income at least equal to the amount contributed.
       </li>
       <li>
         <strong>Deductibility.</strong> Contributions may be fully or partially
         deductible depending on your income and whether you or your spouse are
-        covered by a workplace retirement plan【284940355633267†L304-L347】.
+        covered by a workplace retirement plan.
       </li>
       <li>
         <strong>Tax deferral.</strong> Investments grow tax deferred; you pay
@@ -33,7 +33,7 @@ export const content = (
       <li>
         <strong>Required minimum distributions (RMDs).</strong> Distributions
         must begin by age 73 (for those turning 73 in 2024); RMDs ensure taxes
-        are eventually collected【284940355633267†L304-L347】.
+        are eventually collected.
       </li>
     </ul>
 

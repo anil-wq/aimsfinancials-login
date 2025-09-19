@@ -20,19 +20,19 @@ export const content = (
       <li>
         <strong>Whole life.</strong> Provides lifetime coverage with a fixed
         premium and guaranteed minimum cash value growth. Dividends may
-        increase cash value or reduce premiums【822975951468708†L965-L974】.
+        increase cash value or reduce premiums.
       </li>
       <li>
         <strong>Universal life.</strong> Offers flexible premiums and a
         minimum guaranteed interest rate; excess premium grows in a separate
         account. You can increase or decrease the death benefit and adjust
-        contributions【822975951468708†L977-L987】.
+        contributions.
       </li>
       <li>
         <strong>Variable life.</strong> Combines permanent insurance with
         investment subaccounts similar to mutual funds; cash value and death
         benefit vary with market performance. The policyholder bears the
-        investment risk【822975951468708†L1000-L1011】.
+        investment risk.
       </li>
       <li>
         <strong>Indexed universal life (IUL).</strong> Credits interest based
@@ -53,7 +53,7 @@ export const content = (
       </li>
       <li>
         Tax‑deferred accumulation and potential for tax‑free loans or
-        withdrawals if structured properly【822975951468708†L989-L997】.
+        withdrawals if structured properly.
       </li>
       <li>
         Permanent death benefit can support estate liquidity and legacy goals.
@@ -68,7 +68,7 @@ export const content = (
       </li>
       <li>
         Policy loans or withdrawals reduce the death benefit and may incur
-        taxes if the policy lapses【822975951468708†L989-L997】.
+        taxes if the policy lapses.
       </li>
       <li>
         Investment risk in variable policies is borne by the policyholder; caps

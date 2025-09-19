@@ -17,11 +17,11 @@ export const content = (
     <p>
       The program is not "going bankrupt," but the combined Old‑Age and
       Survivors Insurance (OASI) and Disability Insurance (DI) trust funds are
-      projected to be depleted in 2034【443433705998405†L47-L59】. At that point,
+      projected to be depleted in 2034. At that point,
       ongoing payroll taxes would fund about 81&nbsp;% of scheduled benefits
-     【807899732412377†L71-L96】. This means benefits could be reduced if
+     . This means benefits could be reduced if
       Congress does not enact reforms. Claims that the system will pay
-      nothing are misleading.【807899732412377†L96-L105】.
+      nothing are misleading..
     </p>
 
     <h3>Planning considerations</h3>
