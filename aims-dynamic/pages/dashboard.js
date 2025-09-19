@@ -87,7 +87,7 @@ export default function Dashboard({ user }) {
       <Head>
         <title>Dashboard – AIMS Financials</title>
       </Head>
-      {/* Top navigation updated to mirror the main site navigation */}
+      {/* Top navigation updated for public access: Education page link replaces Dashboard and logout */}
       <nav className="navbar">
         <div className="nav-container">
           <div className="logo">
@@ -97,11 +97,7 @@ export default function Dashboard({ user }) {
           </div>
           <ul className="nav-links">
             <li><Link href="/">Home</Link></li>
-            <li><a href="/#services">Services</a></li>
-            <li><a href="/#what">What I Do</a></li>
-            <li><a href="/#philosophy">Philosophy</a></li>
-            <li><Link href="/education">Learn</Link></li>
-            <li><Link href="/blog">Blog</Link></li>
+            <li><Link href="/education">Education</Link></li>
           </ul>
         </div>
       </nav>

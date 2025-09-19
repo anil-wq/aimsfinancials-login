@@ -77,7 +77,7 @@ export default function Education() {
   return (
     <div>
       <Head>
-        <title>Learn – AIMS Financials</title>
+        <title>Education – AIMS Financials</title>
       </Head>
       {/* Shared top navigation */}
       <nav className="navbar">
@@ -89,19 +89,15 @@ export default function Education() {
           </div>
           <ul className="nav-links">
             <li><Link href="/">Home</Link></li>
-            <li><a href="/#services">Services</a></li>
-            <li><a href="/#what">What I Do</a></li>
-            <li><a href="/#philosophy">Philosophy</a></li>
-            <li><Link href="/education">Learn</Link></li>
-            <li><Link href="/blog">Blog</Link></li>
+            <li><Link href="/education">Education</Link></li>
           </ul>
         </div>
       </nav>
       <div style={{ paddingTop: '80px', paddingBottom: '2rem' }}>
         <div className="container">
-          <h2 style={{ color: 'var(--secondary-color)', textAlign: 'center', marginBottom: '1rem' }}>Learn</h2>
+          <h2 style={{ color: 'var(--secondary-color)', textAlign: 'center', marginBottom: '1rem' }}>Financial Education</h2>
           <p style={{ textAlign: 'center', marginBottom: '2rem' }}>
-            Welcome to <strong>Learn</strong> 🎓 – your hub of bite‑sized financial wisdom! Explore our library of articles on planning, trusts, insurance and more. Use the search bar or expand a section to begin your adventure 🧭.
+            Browse our library of in‑depth articles on planning, trusts, insurance and more. Use the search bar or expand a section to begin.
           </p>
           <div className="dashboard-layout">
             <aside className="sidebar">
